@@ -1,8 +1,8 @@
 ---
-layout:post
-title: Internet Snippets March 2014
-date: 2014-01-02 -0500
-comments:true
+layout: post
+title: "Internet Snippets March 2014"
+date: 2014-05-20 
+comments: true
 ---
 Some more wonderful links to check out. Games, announcements, knowledge...   
 - An awesome [blog post series](http://crosscuttingconcerns.com/tag/LetsBuildAnAspect) by Matthew D. Groves on how to build an aspect. Well worth your time.  

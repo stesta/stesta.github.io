@@ -1,4 +1,4 @@
-﻿<nav class="navbar navbar-default" role="navigation">
+﻿<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
@@ -7,15 +7,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Brand</a>
+            <a class="navbar-brand" href="{{ site.baseurl }}"><img src="{{ "/assets/images/logo-dark.png" | prepend: site.baseurl }}" alt="Testa Software" /></a>
         </div>
 
         <div class="collapse navbar-collapse" id="main-navbar">
             <ul class="nav navbar-nav">
-                <li><a href="/steve/blog/">blog</a></li>
-                <li><a href="/about/">about me</a></li>
-                <li><a href="/products/">products</a></li>
-                <li><a href="/products/">consulting</a></li>
+                <li><a href="{{ "/steve/blog/" | prepend: site.baseurl }}">blog</a></li>
+                <li><a href="{{ "/about/" | prepend: site.baseurl }}">about me</a></li>
+                <li><a href="{{ "/products/" | prepend: site.baseurl }}">products</a></li>
+                <li><a href="{{ "/consulting/" | prepend: site.baseurl }}">consulting</a></li>
                 <li><a href="https://github.com/stesta">open source</a></li>
             </ul>
         </div>
