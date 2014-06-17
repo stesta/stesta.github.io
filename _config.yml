@@ -1,0 +1,22 @@
+# Site settings
+author: Steven Testa
+title: Testa Software
+email: steve@testasoftware.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+baseurl: ""
+url: "http://testasoftware.com"
+#gravatar_url: 
+#subscribe_rss: 
+
+# GitHub settings
+github_user: stesta
+github_repo_url: https://github.com/stesta/testasoftware.com
+
+# Google Analytics
+google_analytics_tracking_id: UA-31584220-1
+
+# Build settings
+markdown: kramdown
+permalink: /steve/blog/:title
+gems:
+- jekyll-sitemap
