@@ -12,6 +12,10 @@ url: "http://testasoftware.com"
 github_user: stesta
 github_repo_url: https://github.com/stesta/testasoftware.com
 
+# Disqus Comments
+disqus_short_name: stesta
+disqus_show_comment_count: true
+
 # Google Analytics
 google_analytics_tracking_id: UA-31584220-1
 

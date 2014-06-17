@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Everyday Wisdom for Developers"
+date: 2013-09-17
+comments: true
+---
+<p>The following is a compilation of practical wisdom a developer should be living by daily. So stop by and remind yourself of these bits of wisdom every so often. I'll add new ones as I think of them, come across them or as they get suggested. A special thank you to Chuck Camps who helped me start this list.</p>
+<p><strong>Don't think you know better than the domain experts... and don't do unecessary work.</strong></p>
+<p>Well, what if they really don&rsquo;t need it? It&rsquo;s not uncommon for developers to get into the mindset that we know better than the users. But while we may be experts at software development, we are likely not at that level of expertise in other areas like approving loans, evaluating medical records or interpreting sales data. The business user is the expert in the business. Just like we wouldn&rsquo;t like it if someone from accounting or sales starting telling us how to write our code, we shouldn&rsquo;t be telling them what they need to do their jobs. The business knows what the business wants and needs, and if they don&rsquo;t then they will figure it out and come back and ask for it. And we should wait for them to ask and then give them exactly what they ask for. Trying to anticipate needs creates a lot of &ldquo;features&rdquo; and code in the system that is never used and adds no value. In consulting we referred to this as &ldquo;Gold Plating&rdquo; which itself was simply a term meant to describe &ldquo;a bunch of work the client didn&rsquo;t ask us to do, so we don&rsquo;t get paid for." (attr: <a href="http://blogs.telerik.com/james-bender/posts/13-09-16/30-days-of-tdd-day-four-making-your-first-test-pass">James Bender</a>)</p>
