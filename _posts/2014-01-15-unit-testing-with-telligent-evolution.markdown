@@ -4,13 +4,17 @@ title: "Unit Testing with Telligent Evolution"
 date: 2014-01-15
 comments: true
 ---
-<p>Kaboom! <em>The service locator has not been initialized</em></p>
-<p><img width="456" height="58" src="{{ "/assets/images/blog/Telligent/service-locator-error.png" | prepend: site.baseurl }}" /></p>
-<p>If you use the Telligent Evolution platform and you've tried to set up unit testing then you've probably seen this message. So what's the problem? Well the service locator really isn't anything more than a Ninject kernel. Since our unit tests are not operating within the bounds of the Telligent application we need to build and initialize that kernel ourselves. Here are the basic steps to set up a Visual Studio Unit Test project to test services that use the Telligent inline PublicApi. Note that depending on your tests you may need to tweak things a little bit, but this should get you started.</p>
-<h3>Step 1: Reference the Telligent Evolution DLLs</h3>
-<p>The first step is going to be to reference the DLLs from your Telligent Evolution installation in your unit test project. This is a fairly easy step. Just right click your references folder and <i>Add Reference</i>. The simply browse to and select the libs you need in your installation's bin directory.&nbsp;</p>
-<p>One item of note, however, is that you will need to make sure that the&nbsp;<em>System.Web.Routing</em> DLL has its&nbsp;<em>Copy Local</em> property set to <em>true</em>.</p>
-<h3>Step 2: Copy Config and Module Files</h3>
+Kaboom! <em>The service locator has not been initialized</em>  
+
+<img width="456" height="58" src="{{ "/assets/images/blog/Telligent/service-locator-error.png" | prepend: site.url }}" />  
+
+If you use the Telligent Evolution platform and you've tried to set up unit testing then you've probably seen this message. So what's the problem? Well the service locator really isn't anything more than a Ninject kernel. Since our unit tests are not operating within the bounds of the Telligent application we need to build and initialize that kernel ourselves. Here are the basic steps to set up a Visual Studio Unit Test project to test services that use the Telligent inline PublicApi. Note that depending on your tests you may need to tweak things a little bit, but this should get you started.  
+
+### Step 1: Reference the Telligent Evolution DLLs
+The first step is going to be to reference the DLLs from your Telligent Evolution installation in your unit test project. This is a fairly easy step. Just right click your references folder and <i>Add Reference</i>. The simply browse to and select the libs you need in your installation's bin directory.  
+One item of note, however, is that you will need to make sure that the&nbsp;<em>System.Web.Routing</em> DLL has its&nbsp;<em>Copy Local</em> property set to <em>true</em>.  
+
+### Step 2: Copy Config and Module Files
 <p>In this step there are a few files that need to be moved over into the unit test project. First we need to move some config files. The import ones include: <em>caching.config</em>,&nbsp;<em>communityserver.config</em> and&nbsp;<em>communityserver_override.config</em>. As stated before you may have to move more config files depending on what you are testing and how you want to set things up. For example, the set up mentioned in this post doesn't explicitly include plugins or scheduled jobs. Additionally,&nbsp;<em>connectionstring.config&nbsp;</em>is not included because I choose to migrate those settings to App.config as explained below. These config files can just be placed into the root of the unit test project.</p>
 <p>The other files that have to be moved are all the config files under the <em>Modules</em> directory. The modules directory contains the xml configurations that contain the Ninject bindings when we set up our kernel. I usually just put these in a Modules folder in the unit test project. These can be placed anywhere in the project. In order to place them in a different location, however, you'll need to change the path in Step 4.</p>
 <h3>Step 3: Web.config to App.config</h3>

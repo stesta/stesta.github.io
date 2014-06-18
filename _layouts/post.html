@@ -1,18 +1,27 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post row">
+    <div class="col-md-8">
+        <header class="post-header">
+            <h1>{{ page.title }}</h1>
+            <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
 
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+        <article class="post-content">
+            {{ content }}
+        </article>
 
-  <article class="post-content">
-  {{ content }}
-  </article>
+        <footer class="post-footer">
+            {% if site.disqus_short_name and page.comments == true %}
+            <section id="comment">
+                <div id="disqus_thread" aria-live="polite">{% include disqus.html %}</div>
+            </section>
+            {% endif %}
+        </footer>
+    </div>
 
-  <footer class="post-footer">
-      {% include disqus.html %}
-  </footer>
+    <div class="col-md-4">
+        sidebar
+    </div>
 </div>
