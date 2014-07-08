@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Steve Testa's Blog
-permalink: /steve/blog/
 ---
 <div class="container">
     <div class="row">

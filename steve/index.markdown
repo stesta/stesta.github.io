@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Steve
-permalink: /steve/
 ---
 <div class="container-fluid steve-callout">
 </div>
