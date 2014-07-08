@@ -10,10 +10,10 @@ url: "http://testasoftware.com"
 
 # GitHub settings
 github_user: stesta
-github_repo_url: https://github.com/stesta/testasoftware.com
+github_repo_url: https://github.com/stesta
 
 # Disqus Comments
-disqus_short_name: stesta
+disqus_short_name: testasoftware-steve
 disqus_show_comment_count: true
 
 # Google Analytics
