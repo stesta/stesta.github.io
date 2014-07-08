@@ -1,7 +1,32 @@
 ﻿body {
-    padding-top:70px;
+    padding-top:30px;
     font-family:"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:14px;
     line-height:20px;
     color:#353535;
+}
+
+/* navigation */
+#main-navbar>ul>li>a {
+    color:#aaa;
+}
+
+#main-navbar>ul>li>a:hover {
+    color:#fff;
+}
+
+
+/* page callouts */
+.home-callout {
+    background-image: url('/assets/images/computer-history-dim.jpg');
+    background-size: cover;
+    height:500px;
+    color:#fff;
+    padding-top:150px;
+}
+
+.steve-callout {
+    background-image: url('/assets/images/aboutme/aboutme.jpg');
+    background-size: auto;
+    height:300px;
 }
