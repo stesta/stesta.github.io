@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Visual Studio Column Select"
-date: 2013-08-30
+date: 2013-07-06
 comments: true
 ---
 <p>If you're not familiar with column select you're missing out on a ton of multiline editing goodness. Just hold down the alt key while you're selecting items with your mouse and you'll see what I mean.</p>

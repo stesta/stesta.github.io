@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aviation Units Released!"
-date: 2013-08-30
+date: 2012-12-28
 comments: true
 ---
 <p>I just released an open source C# units library to aid aviation calculations. Aviation Units aids in unit conversion to make calculations easy to work with.&nbsp;</p>

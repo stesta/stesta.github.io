@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git Branching Workflow - Part 2: Feature Branches"
-date: 2013-08-30
+date: 2013-02-23
 comments: true
 ---
 <h2>Working With a Feature Branch</h2>

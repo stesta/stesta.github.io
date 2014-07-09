@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Natural String Sorting "
-date: 2013-08-30
+date: 2012-08-08
 comments: true
 ---
 <p>Here's the quick run down of the problem. Let's suppose you have a list of string that contain numeric values. When you sort that list in .Net they probably don't get returned in the manner you'd expect. They get returned based upon their ASCII string values giving you a list that looks something like the image below. This problem has already been <a href="http://www.codinghorror.com/blog/2007/12/sorting-for-humans-natural-sort-order.html">covered</a> <a href="http://www.interact-sw.co.uk/iangblog/2007/12/13/natural-sorting">quite</a> <a href="http://nedbatchelder.com/blog/200712.html#e20071211T054956">extensively</a> so I'm going to quickly run through the solution I ended up using.</p>
