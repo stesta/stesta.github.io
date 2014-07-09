@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Natural String Sorting "
+title: "Natural String Sorting"
 date: 2012-08-08
 comments: true
 ---
