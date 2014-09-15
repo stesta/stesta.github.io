@@ -8,8 +8,12 @@ title: Steve Testa's Blog
             {% for post in site.posts %}
             <div class="post">
                 <h2><a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h2>
-                <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <div class="lead post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+                <div class="lead post-content">{{ post.excerpt }}</div>
+                <div class="lead"><a class="post-link" href="{{ post.url | prepend: site.url }}">read more...</a></div>
             </div>
+            
+            <hr class="featurette-divider" />
             {% endfor %}
         </div>
         <div class="col-md-1">
