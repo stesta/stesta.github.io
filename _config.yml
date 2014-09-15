@@ -5,7 +5,7 @@ email: steve@testasoftware.com
 description: ""
 url: "http://testasoftware.com"
 baseurl: ""
-#gravatar_url: 
+gravatar_url: "http://www.gravatar.com/avatar/fa0158d5d8c2025ccd4d55cefa30d387.png"
 #subscribe_rss: 
 
 # GitHub settings

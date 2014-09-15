@@ -6,12 +6,12 @@ title: Steve
 </div>
 
 <div class="container">
-    <div class="row">
+    <div class="row-featurette">
         <div class="col-md-8" itemscope="" itemtype="http://data-vocabulary.org/Person">
-			<h2>Steve Testa</h2>
-			<p>My name is <span itemprop="name">Steve Testa</span>. I am a developer, consultant, entrepreneur and self described foosball champion. I like to blog occassionally about technology, code, trends and the community (obligatory:&nbsp;<strong>all opinions are my own</strong>). Feel free to subscribe to my rss feed.</p>
-			<p><strong>A little background...</strong><br>My career started at Sky Internet Solutions, a small consulting firm. Custom websites were the name of the game over there. After which, I worked for about 5 years at medical software company called Micro-Office Systems. While there I worked on everything from medical systems integrations to custom back office healthcare solutions. My current day job is as an Application Developer for Hyland Software here in Cleveland, Ohio. At Hyland, I work mainly in the social enterprise space with a heavy focus on web development using the Microsoft stack. I've been with Hyland for around 4 years now. On top of it all, I have maintained&nbsp;Testa Software, my own consulting firm, on the side.&nbsp;</p>
-			<p><strong>Connect with me...</strong><br>I am always excited about the latest technologies and am passionate about code. I am always happy to discuss both. On the social web I tend to hang out on <a href="https://twitter.com/steven_testa">twitter</a>, but you can also catch me on <a href="https://www.facebook.com/steven.testa">facebook</a> and <a href="https://plus.google.com/114388532024454912535/about">google+</a>. If you are in the Cleveland area you can catch me in person. I am a regular at some of Cleveland's development related user groups: <a href="http://www.meetup.com/Cleveland-C-VB-Net-User-Group/">C#/VB.NET Sig</a>, <a href="http://www.meetup.com/Cleveland-WPF-User-Group/">WPF User Group</a> or <a href="http://www.bennettadelson.com/AllEvents.aspx?sig=1e77a027-e2c4-df11-a738-001f29c6fb82">Cleveland .NET Sig</a>.</p>
+			<h2 class="featurette-heading">Steve Testa</h2>
+			<p class="lead">My name is <span itemprop="name">Steve Testa</span>. I am a developer, consultant, entrepreneur and self described foosball champion. I like to blog occassionally about technology, code, trends and the community (obligatory:&nbsp;<strong>all opinions are my own</strong>). Feel free to subscribe to my rss feed.</p>
+			<p class="lead"><strong>A little background...</strong><br>My career started at Sky Internet Solutions, a small consulting firm. Custom websites were the name of the game over there. After which, I worked for about 5 years at medical software company called Micro-Office Systems. While there I worked on everything from medical systems integrations to custom back office healthcare solutions. My current day job is as an Application Developer for Hyland Software here in Cleveland, Ohio. At Hyland, I work mainly in the social enterprise space with a heavy focus on web development using the Microsoft stack. I've been with Hyland for around 4 years now. On top of it all, I have maintained&nbsp;Testa Software, my own consulting firm, on the side.&nbsp;</p>
+			<p class="lead"><strong>Connect with me...</strong><br>I am always excited about the latest technologies and am passionate about code. I am always happy to discuss both. On the social web I tend to hang out on <a href="https://twitter.com/steven_testa">twitter</a>, but you can also catch me on <a href="https://www.facebook.com/steven.testa">facebook</a> and <a href="https://plus.google.com/114388532024454912535/about">google+</a>. If you are in the Cleveland area you can catch me in person. I am a regular at some of Cleveland's development related user groups: <a href="http://www.meetup.com/Cleveland-C-VB-Net-User-Group/">C#/VB.NET Sig</a>, <a href="http://www.meetup.com/Cleveland-WPF-User-Group/">WPF User Group</a> or <a href="http://www.bennettadelson.com/AllEvents.aspx?sig=1e77a027-e2c4-df11-a738-001f29c6fb82">Cleveland .NET Sig</a>.</p>
         </div>
         <div class="col-md-4">
 			<ul>
@@ -26,3 +26,4 @@ title: Steve
         </div>
     </div>
 </div>
+
