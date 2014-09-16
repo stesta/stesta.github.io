@@ -35,3 +35,12 @@ comments: true
 <p>Below is a simple example of how to acutally use this binding handler...&nbsp;<br />(note you need to specify a height and width for your map)</p>
 <pre class="prettyprint linenums">&lt;style&gt;<br />.map { height:300px; width:300px; }<br />&lt;/style&gt;<br /><br />&lt;div data-bind="foreach: locations"&gt;<br />&nbsp; &nbsp; &lt;div data-bind="text: name"&gt;&lt;/div&gt;<br />&nbsp; &nbsp; &lt;div class="map" data-bind="googlemap: { latitude: latitude, longitude: longitude }"&gt;&lt;/div&gt;<br />&lt;/div&gt;</pre>
 <p>Easy enough! 15 minutes of work!</p>
+
+### Working Code  
+
+Additionally, here are a couple of working fiddles to demonstrate:
+
+[Single Point, Multiple Maps](http://jsfiddle.net/stesta/2T3Db/)  
+
+
+[Multiple Points, Single Map](http://jsfiddle.net/stesta/p3ZT4/)   
