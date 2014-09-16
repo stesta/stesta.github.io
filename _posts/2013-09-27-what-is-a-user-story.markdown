@@ -7,6 +7,9 @@ comments: true
 <p>User stories are becoming more prevalent these days. While a user story by itself can be use autonomously, they're also used heavily in agile methodolgies like scrum. The definition of a user story is simple:&nbsp;</p>
 <blockquote>A User Story describes a piece of functionality that&nbsp;<strong>valuable</strong>&nbsp;to a&nbsp;<strong>user</strong> of the system.</blockquote>
 <p>While the definition is simple there is more to it than that. A user story has more parts to than just a card on a scrum board. There is more to their purpose and value. User stories can help us as developers plan our sprints better, prioritize our work better, consistently deliver valuable new features and stay focused on what really matters to the business. As a pleasant side effect to all of that we become more productive and valued individuals.&nbsp;</p>
+
+<!--more-->
+
 <p>It may sound dumb to state, but a user story is always written from the perspective of an end user of the system. That's why it's called a user story.&nbsp;</p>
 <h3>Parts of User Story</h3>
 <h4>The Card</h4>

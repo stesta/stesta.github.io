@@ -23,6 +23,7 @@ google_analytics_tracking_id: UA-31584220-1
 markdown: kramdown
 kramdown: 
   input: GFM
+excerpt_separator: <!--more-->  
 permalink: /steve/blog/:title
 gems:
 - jekyll-sitemap

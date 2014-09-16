@@ -6,6 +6,9 @@ comments: true
 ---
 <p>Knockout Binding Handlers, FTW!</p>
 <p>Very recently a client request came in for some new 'maps' features to their existing site. Their site is a C#/.NET 4.0 backend with a knockout.js frontend. They have a series of pages that represent their locations. To accompany the location information they wanted to display an interactive map. Google maps makes this easy enough, but with knockout it was even easier!</p>
+
+<!--more-->
+
 <p>First the data. To position a map we're going to need latitude and longitude. Google makes this process super easy with their geocoding services. We start with a model to represent our location...</p>
 <pre class="prettyprint linenums">[Serializable]<br />public class GeocoderLocation<br />{<br />&nbsp; &nbsp; &nbsp; &nbsp; public double Longitude { get; set; }<br />&nbsp; &nbsp; &nbsp; &nbsp; public double Latitude { get; set; }<br />&nbsp; &nbsp; &nbsp; &nbsp; public override string ToString()<br />&nbsp; &nbsp; &nbsp; &nbsp; {<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return String.Format("{0}, {1}", Latitude, Longitude);<br />&nbsp; &nbsp; &nbsp; &nbsp; }<br /> }</pre>
 <p>Then create a simple static method to use Google's geocoding service to populate that model based on a street address that we already have for the location.</p>

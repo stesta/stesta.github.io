@@ -10,6 +10,8 @@ Like so many other bloggers before me, I have decided to start a sub-genre of po
 I come across in my daily adventures on the interwebs. Keeping with blogging/internet tradition, these posts will pretty much happen 
 randomly whenever I get around to them.  
 
+<!--more--> 
+
 So... Welcome to Internet Snippets and the inaugural post the January 2014 Edition!  
 
 - Let's start this off with one of my absolute favorite sites, <a href="http://projecteuler.net/">Projct Euler</a> (pronounced: "oiler"). It is a series of progressively challenging math problems that are sure to be enjoyed by nerds everywhere!  

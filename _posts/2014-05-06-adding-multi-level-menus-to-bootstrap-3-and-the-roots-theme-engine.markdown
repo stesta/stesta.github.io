@@ -8,6 +8,8 @@ Very recently I had a request to do some work on a WordPress site. Granted, I'm 
 (Note: that "not a fan" is an understatement... php?!... really?!?!) Because I'm not a fan, my experience with WordPress is incredibly limited. 
 My Google adventures eventually led me to the [Roots](http://roots.io) theme engine. Roots was able to get me up and running fairly quickly. It's used a lot of technologies that I was already comfortable with. HTML5, Grunt and Bootstrap were the big sellers for me.  
 
+<!--more--> 
+
 Theming itself went pretty smoothly. Grunt compiled all my less for me, bootstrap provided a comfortable styling environment and the theme was easy 
 enough to zip up and deploy. There was a hang up, however, when I realized that Bootstrap 3 dropped support for multi-level menus. Doesn't sound like a 
 big deal until the client demands it. Now I'm sure this would have been easier for you WordPress gurus out there, but it took me long enough that I felt 

@@ -7,14 +7,17 @@ comments: true
 The doomsday preppers, survival enthusiasts and fans of Bear Grills may be familiar with the term Everyday Carry - EDC to those in the know. Everyday carry is basically 
 a small set of items and tools picked to help tackle any situations that may occur. Common tool choices include: pocket knives, mini-flashlights, paracord, wrist-watches, etc.
 
-To quote wikipedia...  
+<!--more--> 
+
+To quote wikipedia... 
+ 
  > The term EDC also refers to the philosophy or spirit of preparedness that  
  > goes along with the selection and carrying of these items. Implicit in the  
  > term is the sense that an EDC is an individual's personal selection of equipment,  
  > arrived at after deliberation, rather than a standardized kit.  
 
 As developers we can follow that same spirit of preparedness. Admittedly, our "situations" are less about survival and more about fixing the computer issues for almost everyone 
-we know. Thanks to portable apps we can carry our tools with us via usb drive or virtually via cloud storage.  
+we know. Thanks to portable apps we can carry our tools with us via usb drive or virtually via cloud storage. 
 
 **LinqPad**  
 LinqPad is indispensable. As a .Net developer this is a utility I have open daily. It's great for database queries via linq or just to write some quick code or utilities. 

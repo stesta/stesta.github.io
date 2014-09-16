@@ -6,6 +6,9 @@ comments: true
 ---
 <p>I consider myself a good developer. Perhaps I'm not a great one (yet), but to use a popular moniker these days I strive to be a software craftsman. I try to hone my software development skills every single day. With that in mind I have know I have a bad habit of automatically adding certain open source libraries to every new project I create. Steve Smith (<a href="https://twitter.com/ardalis/">@Ardalis)</a> would say I'm probably in the over zealous phase.</p>
 <p>Admittedly, a lot of times the project I'm working on doesn't require the complexity that the following libaries introduce. I add them anyway and that's what makes it a bad habit. That being said I'm also not afraid to scrap code if the direction and architectual patterns these libraries may introduce just aren't working.</p>
+
+<!--more-->
+
 <p>A little background on my list. For the most part I'm a web developer. I also work almost exclusively in C#. What I'm really trying to elicit here is to get feedback regarding what other libraries similar developers use on a frequent basis. Each one of the following libraries is available on Nuget. Here we go...</p>
 <p><strong>NLog <br /></strong></p>
 <p>ALL software should have logging. Logging is a solved problem. Get NLog. There's no need to reinvent the wheel.<br /><a href="http://nlog-project.org/">http://nlog-project.org/</a></p>

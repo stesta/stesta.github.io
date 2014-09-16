@@ -5,6 +5,9 @@ date: 2014-03-25
 comments: true
 ---
 Quick one this time!  
+
+<!--more--> 
+
 - This first article is a series of links to <a href="https://medium.com/p/62ae4bcbe01b">excellent stock photo sites</a>. And what would a design tip be without a link to some awesome&nbsp;<a href="http://inspiredm.com/10-best-unexpected-icon-packs-designers/">sets of icons</a>?  
 - <a href="http://msdn.microsoft.com/en-us/library/windowsphone/help/jj891134(v=vs.105).aspx">Badge guidelines</a> for Windows Phone Store and Windows Store.  
 - Got a cool beer bottle? Here's how to <a href="http://www.artofmanliness.com/2014/02/19/how-to-make-a-drinking-glass-from-a-bottle/">turn it into a drinking glass</a>!  

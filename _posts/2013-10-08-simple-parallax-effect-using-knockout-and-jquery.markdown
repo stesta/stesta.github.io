@@ -5,6 +5,9 @@ date: 2013-10-08
 comments: true
 ---
 <p>Using <a href="http://en.wikipedia.org/wiki/Parallax">parallax</a> shift has become a popular effect lately. It's popularity has risen as a design choice across the web and has even made its way into the new iOS7. The concept is relatively simple: elements on the screen move and scroll at different rates to give the illusion of depth.&nbsp;</p>
+
+<!--more-->
+
 <p>In the following example the basic idea to achieve our desired effect is that we're going to bind a function to the scroll event. That function will move an element by some defined factor. The jQuery example below will give you an idea of how this works. In our example below we are altering the background image position of a given element and moving it around faster (by a factor of .5) than the rest of the elements on the page when we start scrolling.&nbsp;</p>
 <pre class="prettyprint linenums">$(window).bind('scroll', function(e) {
     $('#myElement').css('background-position', '0px' + (0 - (document.body.scrollTop * .5)) + 'px');

@@ -5,6 +5,9 @@ date: 2013-01-25
 comments: true
 ---
 <p>In this post I'm going to explain the current development model for my team. We use <a href="http://www.git-scm.com/">Git</a> very heavily. I will go over our branching workflow with some explanation of the basics, but if you need to learn some more about Git try the book <a href="http://www.git-scm.com/book">Git Pro</a>. It is avaiable as a free ebook and covers everything you'll need to know.&nbsp;</p>
+
+<!--more-->
+
 <p><img src="/assets/images/blog/git-workflow/branching-strategy.png" alt="" width="1081" height="904" /></p>
 <h2>From Feature to Production</h2>
 <h3>The Main Branches</h3>

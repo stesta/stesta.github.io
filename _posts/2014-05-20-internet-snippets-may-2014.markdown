@@ -5,6 +5,9 @@ date: 2014-05-20
 comments: true
 ---
 Some more wonderful links to check out. Games, announcements, knowledge...  
+
+<!--more--> 
+
 - An awesome <a href="http://crosscuttingconcerns.com/tag/LetsBuildAnAspect">blog post series</a> by Matthew D. Groves on how to build an aspect. Well worth your time.  
 - Visual Studio Online just introduced some <a href="http://www.visualstudio.com/en-us/integrate/explore/explore-vso-vsi">new integration APIs</a>.  
 - A new game&nbsp;<a href="http://www.nbcnews.com/tech/video-games/glorious-leader-kim-jong-un-star-his-own-video-game-n106031">Glorious Leader</a>. I'm leaning towards this is hilarious!  

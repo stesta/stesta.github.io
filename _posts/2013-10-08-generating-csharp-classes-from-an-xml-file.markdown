@@ -5,6 +5,9 @@ date: 2013-10-08
 comments: true
 ---
 <p>I frequently come to the conclusion that I'm working too hard. This is usually because I try to reinvent the wheel when someone out there has already done the job better than I could have. Recently, I had a need to create some strongly typed C# models to help with deserializing some XML. For simple XML it's easy enough to create these models/classes by hand. For more complex XML it's often easier to use the XML Schema Definition tool.</p>
+
+<!--more-->
+
 <p>The XML Schema Definition tool is packaged into the Windows SDK. This means I've had this tool on my machine for practically forever and have been doing things the hard way for a long time.</p>
 <p>Your path to xsd.exe will look something like this depending on which version of the Windows SDK you have installed.</p>
 <pre>C:\Program Files (x86)\Microsoft SDKs\Windows\&lt;version&gt;\Bin\NETFX 4.0 Tools\xsd.exe</pre>

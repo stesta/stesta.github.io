@@ -10,6 +10,8 @@ Kaboom! <em>The service locator has not been initialized</em>
 
 If you use the Telligent Evolution platform and you've tried to set up unit testing then you've probably seen this message. So what's the problem? Well the service locator really isn't anything more than a Ninject kernel. Since our unit tests are not operating within the bounds of the Telligent application we need to build and initialize that kernel ourselves. Here are the basic steps to set up a Visual Studio Unit Test project to test services that use the Telligent inline PublicApi. Note that depending on your tests you may need to tweak things a little bit, but this should get you started.  
 
+<!--more--> 
+
 ### Step 1: Reference the Telligent Evolution DLLs
 The first step is going to be to reference the DLLs from your Telligent Evolution installation in your unit test project. This is a fairly easy step. Just right click your references folder and <i>Add Reference</i>. The simply browse to and select the libs you need in your installation's bin directory.  
 One item of note, however, is that you will need to make sure that the&nbsp;<em>System.Web.Routing</em> DLL has its&nbsp;<em>Copy Local</em> property set to <em>true</em>.  

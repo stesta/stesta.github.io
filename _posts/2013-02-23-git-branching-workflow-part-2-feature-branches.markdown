@@ -6,6 +6,9 @@ comments: true
 ---
 <h2>Working With a Feature Branch</h2>
 <p>Disclaimer: The following section of our workflow includes rebasing. Rebasing can be a dangerous operation of you don't know what you're doing. Commits can be lost and you can make life hell for a developer who is working off of a commit you've borked. So follow the golden rule...&nbsp;<strong>Do not rebase commits that you have pushed to a public repository</strong>. Thanks!</p>
+
+<!--more-->
+
 <h3>Create a Feature Branch</h3>
 <p>Every journey has to start some where. Our journey starts with a feature branch. A feature branch affords us the ability to develop a new feature without polluting main development branch.&nbsp;</p>
 <pre>git checkout -b feature_name dev</pre>
