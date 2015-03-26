@@ -1,23 +1,14 @@
-﻿<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+﻿<div class="mainmenu-wrapper">
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="{{ site.url }}"><img src="{{ "/assets/images/logo-dark.png" | prepend: site.url }}" alt="Testa Software" style="margin-top:3px;" /></a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="main-navbar">
-            <ul class="nav navbar-nav navbar-right">
+        <nav id="mainmenu" class="mainmenu">
+            <ul>
+                <li class="logo-wrapper"><a href="index.html"><img src="{{ "/assets/images/logo-dark.png" | prepend: site.url }}" alt="Testa Software" /></a></li>
                 <li><a href="{{ "/steve/blog/" | prepend: site.url }}">blog</a></li>
                 <li><a href="{{ "/steve/" | prepend: site.url }}">about me</a></li>
                 <!--<li><a href="{{ "/products/" | prepend: site.url }}">products</a></li>-->
                 <li><a href="{{ "/consulting/" | prepend: site.url }}">consulting</a></li>
                 <li><a href="https://github.com/stesta">open source</a></li>
             </ul>
-        </div>
+        </nav>
     </div>
-</nav>
+</div>

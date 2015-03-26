@@ -1,17 +1,28 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+{% include head.html %}
 
-  {% include head.html %}
-
-    <body>
+<body>
     {% include header.html %}
 
     {{ content }}
 
     {% include footer.html %}
 
+    <!-- Javascripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+    <script src="/assets/scripts/jquery.fitvids.js"></script>
+    <script src="/assets/scripts/jquery.sequence-min.js"></script>
+    <script src="/assets/scripts/jquery.bxslider.js"></script>
+    <script src="/assets/scripts/main-menu.js"></script>
+    <script src="/assets/scripts/template.js"></script>
     {% include google-analytics.html %}
-    </body>
+</body>
 </html>

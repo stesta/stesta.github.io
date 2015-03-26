@@ -1,22 +1,4 @@
-﻿body {
-    padding-top:30px;
-    font-family:"Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size:14px;
-    line-height:20px;
-    color:#353535;
-}
-
-/* navigation */
-#main-navbar>ul>li>a {
-    color:#aaa;
-}
-
-#main-navbar>ul>li>a:hover {
-    color:#fff;
-}
-
-
-/* page callouts */
+﻿/* page callouts */
 .home-callout {
     background-image: url('/assets/images/computer-history-dim.jpg');
     background-size: cover;
@@ -41,7 +23,6 @@
   line-height: 1;
   letter-spacing: -1px;
 }
-
 
 @media (min-width: 768px) {
   .featurette-heading {
