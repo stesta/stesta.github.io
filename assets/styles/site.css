@@ -1,4 +1,8 @@
-﻿/* page callouts */
+﻿.blog-post {
+    min-height:500px;
+}
+
+/* page callouts */
 .home-callout {
     background-image: url('/assets/images/computer-history-dim.jpg');
     background-size: cover;
