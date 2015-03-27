@@ -16,7 +16,7 @@ title: Steve Testa's Blog
 							<a href="#" title="Show Comments"><i class="glyphicon glyphicon-comment icon-white"></i>16</a>
 						</div>
 					</div>
-					<a href="{{ post.url | prepend: site.url }}"><img src="http://fillmurray.com/400/300" class="post-image" alt="{{ post.title }}"></a>
+					<a href="{{ post.url | prepend: site.url }}"><img src="http://fpoimg.com/400x300" class="post-image" alt="{{ post.title }}"></a>
 					<div class="post-title">
 						<h3><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h3>
 					</div>
@@ -24,7 +24,7 @@ title: Steve Testa's Blog
 						<p>{{ post.excerpt }}</p>
 					</div>
 					<div class="post-more">
-						<a href="{{ post.url | prepend: site.url }}" class="btn btn-small">Read more</a>
+						<a href="{{ post.url | prepend: site.url }}">Read more</a>
 					</div>
 				</div>
             </div>
