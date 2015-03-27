@@ -20,7 +20,7 @@ Note that background position is not the only way to move an element on a page. 
 based on the css property 'top' or 'left' to move and element vertically or horizontally on the page. You can see an example of this on 
 the first demo (link at the bottom of this post).
 
-nd just because Knockout.js is awesome let's make a binding handler to easily apply our effect.
+and just because Knockout.js is awesome let's make a binding handler to easily apply our effect.
 
     ko.bindingHandlers.parallax = {
       init: function(element, valueAccessor) {
@@ -35,14 +35,14 @@ nd just because Knockout.js is awesome let's make a binding handler to easily ap
 The usage of this binding handler is relatively straight forward. We simply apply our binding handler to an element and specify a value 
 to represent the speed of the parallax shift.
 
-    &lt;style type="text/css"&gt;
+    <style type="text/css>
       #parallax-bg {
-          height:200px;
-          background-image('my-background.jpg');
+        height:200px;
+        background-image('my-background.jpg');
       }
-    &lt;/style&gt;
+    </style>
     
-    &lt;div id="parallax-bg" data-bind="parallax: { speed: .65 }"&gt;&lt;/div&gt;
+    <div id="parallax-bg" data-bind="parallax: { speed: .65 }"></div>;
 
 **SHOW ME THE CODE!**
 
