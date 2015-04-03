@@ -17,12 +17,18 @@
     <!-- Javascripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+    <script src="//cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+    <script src="/assets/scripts/jquery.lazyload.min.js"></script>
     <script src="/assets/scripts/jquery.fitvids.js"></script>
     <script src="/assets/scripts/jquery.sequence-min.js"></script>
     <script src="/assets/scripts/jquery.bxslider.js"></script>
     <script src="/assets/scripts/main-menu.js"></script>
     <script src="/assets/scripts/template.js"></script>
+    <script>
+    $(function () {
+        $("img.lazy").lazyload({ effect: "fadeIn" });
+    });
+    </script>
     {% include google-analytics.html %}
 </body>
 </html>
