@@ -45,7 +45,7 @@ layout: default
 <div class="section blog-posts-wrapper">
     <div class="container">
         <div class="row">
-            {% for post in site.posts %}
+            {% for post in site.posts limit: 12 %}
             <div class="col-md-4 col-sm-6">
                 <div class="blog-post">
                     <div class="post-info">
@@ -56,7 +56,7 @@ layout: default
                             <a href="#" title="Show Comments"><i class="glyphicon glyphicon-comment icon-white"></i>16</a>
                         </div>
                     </div>
-                    <a href="{{ post.url | prepend: site.url }}"><img data-original="http://fpoimg.com/440x270" src="http://fpoimg.com/440x270" class="post-image lazy" alt="{{ post.title }}"></a>
+                    <a href="{{ post.url | prepend: site.url }}"><img data-original="{{ post.thumbnail }}" src="http://fpoimg.com/440x270" class="post-image lazy" alt="{{ post.title }}"></a>
                     <div class="post-title">
                         <h3><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h3>
                     </div>
@@ -69,6 +69,9 @@ layout: default
                 </div>
             </div>
             {% endfor %}
+        </div>
+        <div class="row">
+            <a href="/steve/blog">See All Posts</a>
         </div>
     </div>
 </div>

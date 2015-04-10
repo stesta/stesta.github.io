@@ -16,11 +16,7 @@ title: Steve Testa's Blog
 							<a href="#" title="Show Comments"><i class="glyphicon glyphicon-comment icon-white"></i>16</a>
 						</div>
 					</div>
-                    {% if page.thumbnail %}
-					<a href="{{ post.url | prepend: site.url }}"><img data-original="http://fpoimg.com/440x270" src="http://fpoimg.com/440x270" class="post-image lazy" alt="{{ post.title }}"></a>
-                    {% else %}
-                    <div class="randomPurple" style="width:400px;height:300px;">&nbsp;</div>
-                    {% endif %}
+					<a href="{{ post.url | prepend: site.url }}"><img data-original="{{ post.thumbnail }}" src="http://fpoimg.com/440x270" class="post-image lazy" alt="{{ post.title }}"></a>
 					<div class="post-title">
 						<h3><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h3>
 					</div>

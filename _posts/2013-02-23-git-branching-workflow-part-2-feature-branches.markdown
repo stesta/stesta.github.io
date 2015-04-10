@@ -58,7 +58,7 @@ This will present us with a editor that will allow us to 'pick' and 'squash' com
 will 'pick' the first commit and 'squash' all of the other commits into that first commit. All that's needed is 
 to rename 'pick' to 'squash' at the beginning of all the commits you're squashing. See the screen shot below.
 
-<img src="/assets/images/blog/git-workflow/git-rebase.png" alt="" width="843" height="711" />
+![](http://testasoftware.com/assets/images/blog/git-workflow/git-rebase.png)
 
 After you save git will then perform the rebase and squashing! All that's needed is to merge your feature branch 
 into the local/development branch and push it up to origin/development to share with the rest of the team!
