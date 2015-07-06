@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cross-Platform Development in .Net"
-date: 2015-01-01
+date: 2015-05-18
 comments: true
 thumbnail: /assets/images/blog/thumbnails/blog1.jpg
 ---
@@ -22,13 +22,21 @@ out quickly. Even worse, generally a jack of all trades is an expert in none. Th
 > The answer is to niche down. 
 
 What does niche down mean? It could mean making a decision to stick to a single platform. For instance, choosing to be an Android developer over iPhone. Or deciding to write 
-your indie game exclusively for the XBox. However, I would contend that niching down can also refer to making the decision to stick to a single programming language/framework. 
+your indie game exclusively for the XBox. However, I would contend that niching down can also refer to making the decision to stick to a single programming framework. 
 If you've read the blog post title, you already know I advocate .Net! How is .Net cross-platform you ask? Good question, let's dig into that. 
-
 
 ### AspNet 5
   benefits
+   - totally modular  
+   - seamless transition from on-premises to cloud
+   - open source w/ contributions
+   - faster development cycle
+   - choose your editors and tools
+   - cross-platform
+   - fast
   installation
+   - [documentation][docs]
+  asp.net 5 deep dive from build
 
 ### Xamarin
   benefits
@@ -39,3 +47,7 @@ Cross-Platform Architectural Concerns
   Maximum Code Re-Use
   MVVM
   reactive-ui
+
+[docs]: http://docs.asp.net 
+[asp1]: http://www.google.com
+[asp2]: http://www.google.com

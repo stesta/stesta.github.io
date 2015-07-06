@@ -1,14 +1,38 @@
-﻿<div class="mainmenu-wrapper">
+﻿<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
     <div class="container">
-        <nav id="mainmenu" class="mainmenu">
-            <ul>
-                <li class="logo-wrapper"><a href="index.html"><img src="{{ "/assets/images/logo-dark.png" | prepend: site.url }}" alt="Testa Software" /></a></li>
-                <li><a href="{{ "/steve/blog/" | prepend: site.url }}">blog</a></li>
-                <li><a href="{{ "/steve/" | prepend: site.url }}">about me</a></li>
-                <!--<li><a href="{{ "/products/" | prepend: site.url }}">products</a></li>-->
-                <li><a href="{{ "/consulting/" | prepend: site.url }}">consulting</a></li>
-                <li><a href="https://github.com/stesta">open source</a></li>
-            </ul>
-        </nav>
+        <ul class="nav navbar-nav">
+            <li class="{% if page.url == '/index.html' %}active{% endif %}">
+                <a href="/">
+                    Home
+                </a>
+            </li>
+            <li class="{% if page.url == '/steve/index.html' %}active{% endif %}">
+                <a href="/steve">
+                    About
+                </a>
+            </li>
+            <li class="{% if page.url contains '/steve/blog' %}active{% endif %}">
+                <a href="/steve/blog">
+                    Blog
+                </a>
+            </li>
+            <li class="">
+                <a href="{{ site.github_repo_url }}" target="__blank__">
+                    Open Source
+                </a>
+            </li>
+
+            <li>
+                <i class="search fa fa-search search-btn"></i>
+                <div class="search-open">
+                    <div class="input-group animated fadeInDown">
+                        <input id="txt-search" type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                            <button id="btn-search" class="btn-u" type="button">Go</button>
+                        </span>
+                    </div>
+                </div>    
+            </li>
+        </ul>
     </div>
 </div>

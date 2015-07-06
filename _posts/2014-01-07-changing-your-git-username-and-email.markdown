@@ -7,7 +7,7 @@ comments: true
 When Git is installed the first thing you probably want to do is set up your username and email. That is unless of course <!--more-->
 *git blame* always seems to out you for breaking the build!  
 
-My preferred route is to simple use the <em>git config</em> command. Basically, all the command is really doing is editing the 
+My preferred route is to simple use the *git config* command. Basically, all the command is really doing is editing the 
 .gitconfig file off of your root directory. You can edit that file directly, but I tend to find the command a little easier.  
 
 **View your .gitconfig file** 

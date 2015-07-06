@@ -18,7 +18,7 @@ I should blog about it. Maybe it'll help someone else.
 There were plenty of solutions out there, but after all of my Googling I opted for a pure css solution. My browser testing all went well. This solution 
 even fit well into the responsive design. It was comfortable to navigate both on my Windows Phone and my Google Nexus tablet.  
 
-I was able to drop this css right into my theme. (credit: [bootsnipp](http://bootsnipp.com/snippets/featured/multi-level-dropdown-menu-bs3">))  
+I was able to drop this css right into my theme. (credit: [bootsnipp](http://bootsnipp.com/snippets/featured/multi-level-dropdown-menu-bs3"))  
 
 <script src="https://gist.github.com/stesta/8ab822d72b03e130e60a.js"></script>
 
