@@ -19,7 +19,7 @@ Would you believe that hosting on GitHub Pages uses Git? Crazy, right?! Source c
 
 ### Markdown    
 
-Markdown is a lightweight markup language that was specifically designed to be easily converted to html while still being easy to create via a standard text editor. 
+Markdown is a lightweight markup language that was specifically designed to be easily converted to html while still being easy to create via a standard text editor. Pay attention to that last little bit. Markdown is easy to create via a standard editor. For me this translates to focusing on the content and content is king.
 
 ### Collaboration  
 
