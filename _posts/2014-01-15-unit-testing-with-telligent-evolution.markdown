@@ -3,6 +3,7 @@ layout: post
 title: "Unit Testing with Telligent Evolution"
 date: 2014-01-15
 comments: true
+thumbnail: /assets/images/blog/thumbnails/keys.jpg
 ---
 Kaboom! *The service locator has not been initialized*  <!--more--> 
 

@@ -3,6 +3,7 @@ layout: post
 title: "Changing Your Git Username and Email"
 date: 2014-01-07
 comments: true
+thumbnail: /assets/images/blog/thumbnails/mail.jpg
 ---
 When Git is installed the first thing you probably want to do is set up your username and email. That is unless of course <!--more-->
 *git blame* always seems to out you for breaking the build!  

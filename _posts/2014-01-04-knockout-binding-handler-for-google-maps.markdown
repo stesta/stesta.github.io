@@ -3,6 +3,7 @@ layout: post
 title: "Knockout Binding Handler for Google Maps"
 date: 2014-01-04
 comments: true
+thumbnail: /assets/images/blog/thumbnails/boxing.jpg
 ---
 Knockout Binding Handlers, FTW!
 
