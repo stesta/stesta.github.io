@@ -16,7 +16,7 @@ title: Steve
     <div class="row about-me">
         <div class="col-sm-4 shadow-wrapper md-margin-bottom-40">
             <div class="box-shadow shadow-effect-2">
-                <img class="img-responsive img-bordered full-width" src="/assets/images/aboutme/gravatar.jpeg" alt="">
+                <img class="img-responsive img-bordered full-width" src="/assets/images/aboutme/steve-med.jpg" alt="">
             </div>
         </div>
 
