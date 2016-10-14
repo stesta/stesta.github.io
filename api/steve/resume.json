@@ -1,0 +1,87 @@
+{
+    "name": "Steven Testa",
+    "email": "steve@testasoftware.com",
+    "phone": "440.305.0073",
+    "objective": "More than 10 years of development experience.",
+    "skillsets": {
+        "programmingLanguages": [
+            "C#",
+            "Haskell",
+            "R",
+            "Python"
+        ],
+        "frameworks": [
+            ".NET 4.5.2"
+        ],
+        "software": [
+            "Visual Studio (up through 2015)",
+            "Visual Studio Code",
+            "RStudio",
+            "Office"
+        ],
+        "operatingSystems": [
+            "Windows XP, 7, 8.1, 10",
+            "Linux",
+            "Android",
+            "iOS"
+        ],
+        "certifications": [
+            ".NET",
+            "OBP1",
+            "OBP2"
+        ]
+    },
+    "experience": [
+        {
+            "company": "Hyland Software Inc.",
+            "jobTitle": "Senior Applications Developer - Web Experience Team",
+            "datesEmployed": "November 2010 - Present",
+            "remarks": [
+                ""
+            ]
+        },
+        {
+            "company": "Hyland Software Inc.",
+            "jobTitle": "Applications Developer - Internal Applications Team",
+            "datesEmployed": "January 2010 - November 2010",
+            "remarks": [
+                ""
+            ]
+        },
+        {
+            "company": "Micro-Office Systems",
+            "jobTitle": "Developer/Technical Support Specialist",
+            "datesEmployed": "June 2005 - December 2009",
+            "remarks": [
+                ""
+            ]
+        },
+        {
+            "company": "Sky Internet Solutions",
+            "jobTitle": "Web Developer",
+            "datesEmployed": "",
+            "remarks": [
+                ""
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "ITT Technical Institute",
+            "major": "Software Applications Programming",
+            "datesAttended": "",
+            "remarks": [
+
+            ]
+        },
+        {
+            "school": "Cleveland State University",
+            "major": "Computer Engineering",
+            "datesAttended": "",
+            "remarks": [
+                
+            ]
+        }
+    ],
+    "references": "Available upon request."
+}

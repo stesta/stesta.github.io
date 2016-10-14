@@ -16,6 +16,11 @@
                     Blog
                 </a>
             </li>
+            <li class="{% if page.url contains '/services' %}active{% endif %}">
+                <a href="/services">
+                    Services
+                </a>
+            </li>
             <li class="">
                 <a href="{{ site.github_repo_url }}" target="__blank__">
                     Open Source
