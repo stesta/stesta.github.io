@@ -37,7 +37,7 @@ avoid some extraneous merge commits that add additional clutter to the history.
 
 ### Merging a Feature Branch (using interactive rebase)
 
-Additionally, there are feature branch benefits when it comes time to push out our changes. The old addage 
+Additionally, there are feature branch benefits when it comes time to push out our changes. The old adage 
 'commit early, commit often' holds true during development. Many commits give developers the flexibility and 
 security they need. When it comes to the main branches, though, all of those developmental commit just tend to 
 clutter up the history. What we really want in the main branches is a single commit that represents the feature 
