@@ -12,11 +12,11 @@ Very recently a client request came in for some new 'maps' features to their exi
 information they wanted to display an interactive map. Google maps makes this easy enough, but with knockout it was even easier!
 
 First the data. To position a map we're going to need latitude and longitude. Google makes this process super easy with their 
-geocoding services. We start with a model to represent our location...
+geo-coding services. We start with a model to represent our location...
 
 <script src="https://gist.github.com/stesta/b611de1f28ff377a2dee.js"></script> 
 
-Then create a simple static method to use Google's geocoding service to populate that model based on a street address that 
+Then create a simple static method to use Google's geo-coding service to populate that model based on a street address that 
 we already have for the location.
 
 <script src="https://gist.github.com/stesta/d92787de6d02e0f80b06.js"></script>
@@ -30,7 +30,7 @@ What I ended up doing was creating a Knockout binding handler to create the map.
 
 <script src="https://gist.github.com/stesta/620d064782d35c17e773.js"></script>
 
-Below is a simple example of how to acutally use this binding handler... <br />
+Below is a simple example of how to actually use this binding handler... <br />
 **(note you need to specify a height and width for your map)**
 
 <script src="https://gist.github.com/stesta/e9f4feb2a3dc113cac99.js"></script> 

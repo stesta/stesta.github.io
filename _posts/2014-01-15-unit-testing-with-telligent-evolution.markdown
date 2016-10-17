@@ -76,9 +76,9 @@ the place.
 ### Step 5: Write Your Tests!
 
 Now we can go ahead and write our unit tests! As you can see from the example below we're inheriting from our 
-*UnitTestBase* class. We can use the Telligent.Common.Services.Get<T>() funtion to reference Telligent's 
-instance of the Ninject kernel that we built and initialized. Addtionally, in our unit tests, if we use that function 
-to get any of our services we have writting it will resolve our constructor injections without the service locator 
+*UnitTestBase* class. We can use the Telligent.Common.Services.Get<T>() function to reference Telligent's 
+instance of the Ninject kernel that we built and initialized. Additionally, in our unit tests, if we use that function 
+to get any of our services we have writing it will resolve our constructor injections without the service locator 
 error anymore!
 
 <script src="https://gist.github.com/stesta/20c6b87a86df366f2d2e.js"></script>

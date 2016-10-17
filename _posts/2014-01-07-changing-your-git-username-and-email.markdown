@@ -13,7 +13,7 @@ My preferred route is to simple use the *git config* command. Basically, all the
 
 **View your .gitconfig file** 
 
-Here are a couple methods to view what you currenly have set up in your .gitconfig.
+Here are a couple methods to view what you currently have set up in your .gitconfig.
 
 First, here's how we show our info via the config command
 
@@ -34,7 +34,7 @@ Here is the command to change your email.
 **How .gitconfig ends up looking**
 
 So this is the final product. If you <em>cat</em> your ~/.gitconfig file you'll get something like this. Also, if you want to 
-skip the commands you can maually edit and save the file to look like the output below.
+skip the commands you can manually edit and save the file to look like the output below.
 
     [user]
     name = Your Name  

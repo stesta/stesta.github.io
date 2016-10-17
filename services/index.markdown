@@ -64,7 +64,7 @@ title: Services
 			<i class="pull-left icon-handbag"></i>
 			<div class="content-boxes-in-v4">
 				<h2>Web Applications</h2>
-				<p>There are a lot of great out-of-the-box solutions for things like E-Commerce or content management, however, it's not always easy to get started. Considerations like hosting, scalability, performance and flexibility are all things that need to be carefully evaluated. We can help you make more informed decisions, work with you regarding deploying a solution and devlop custom enhancements when it's time to grow!</p>
+				<p>There are a lot of great out-of-the-box solutions for things like E-Commerce or content management, however, it's not always easy to get started. Considerations like hosting, scalability, performance and flexibility are all things that need to be carefully evaluated. We can help you make more informed decisions, work with you regarding deploying a solution and develop custom enhancements when it's time to grow!</p>
 				<!--<a href="#">Learn More</a>-->
 			</div>
 		</div>
@@ -80,7 +80,7 @@ title: Services
 			<i class="pull-left icon-fire margin-right-10"></i>
 			<div class="content-boxes-in-v4">
 				<h2>Desktop Applications</h2>
-				<p>We can even help out with your desktop application needs. We can help build and deploy Windows applications using technologies like Windows Presentation Foundation (WPF). Or maybe you're looking to leverage the new Univeral Windows Platform (UWP) to get your desktop application into the Windows store? Ask us how we can help!</p>
+				<p>We can even help out with your desktop application needs. We can help build and deploy Windows applications using technologies like Windows Presentation Foundation (WPF). Or maybe you're looking to leverage the new Universal Windows Platform (UWP) to get your desktop application into the Windows store? Ask us how we can help!</p>
 				<!--<a href="#">Learn More</a>-->
 			</div>
 		</div>
@@ -91,7 +91,7 @@ title: Services
 			<i class="pull-left icon-layers"></i>
 			<div class="content-boxes-in-v4">
 				<h2>Conversions</h2>
-				<p>Do you have some legacy code still sitting out there? Are enhancements and maintenance a headache due to an outdated or a poorly architected code base? It happens a lot more than you'd think. Testa Software is happy to help port old code into the modern age of software development. Porting code to a modern language/architecture helps provide more reliable software, better maintainability and a lot fewer headaches for future enhacements.</p>
+				<p>Do you have some legacy code still sitting out there? Are enhancements and maintenance a headache due to an outdated or a poorly architected code base? It happens a lot more than you'd think. Testa Software is happy to help port old code into the modern age of software development. Porting code to a modern language/architecture helps provide more reliable software, better maintainability and a lot fewer headaches for future enhancements.</p>
 				<!--<a href="#">Learn More</a>-->
 			</div>
 		</div>

@@ -47,4 +47,4 @@ to represent the speed of the parallax shift.
 
 **SHOW ME THE CODE!**
 
-Here are a couple pages that demostrate the technique: [Demo 1](/assets/images/blog/parallax/parallax_demo.html) and [Demo 2](/assets/images/blog/parallax/parallax_demo_1.html)
+Here are a couple pages that demonstrate the technique: [Demo 1](/assets/images/blog/parallax/parallax_demo.html) and [Demo 2](/assets/images/blog/parallax/parallax_demo_1.html)

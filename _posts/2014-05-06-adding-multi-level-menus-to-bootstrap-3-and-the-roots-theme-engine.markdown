@@ -22,7 +22,7 @@ I was able to drop this css right into my theme. (credit: [bootsnipp](http://boo
 
 <script src="https://gist.github.com/stesta/8ab822d72b03e130e60a.js"></script>
 
-All that was really left for me to do was to modify the lib/nav.php file to apply the appropriate 'dropdown-submenu' class attribute to the submenus.  
+All that was really left for me to do was to modify the lib/nav.php file to apply the appropriate 'dropdown-submenu' class attribute to the sub-menus.  
 
 <script src="https://gist.github.com/stesta/7cea5868830defe02c05.js"></script>
 

@@ -6,7 +6,7 @@ comments: true
 thumbnail: /assets/images/blog/thumbnails/flow-charting.jpg
 ---
 User stories are becoming more prevalent these days. While a user story by itself can be use autonomously, they're also used<!--more--> 
-heavily in agile methodolgies like scrum. The definition of a user story is simple:
+heavily in agile methodologies like scrum. The definition of a user story is simple:
 
 > A User Story describes a piece of functionality that **valuable** to a **user** of the system.
 
@@ -57,7 +57,7 @@ like Selenium. The important thing to remember here is that we are writing tests
 2. A User Story is something the user can complete in one sitting. What I'm saying here is that a user story should be something a 
    user can complete all at once. Example, a user story that requires a user to wait for an email to arrive should probably be split up.
 3. User Stories must be "estimate-able". Since a user story is user for planning, we need to be able to put an estimate to it. Some 
-   suggestions for how to estimate are based on things like percieved effort or ideal days. Be aware of the factors that can make 
+   suggestions for how to estimate are based on things like perceived effort or ideal days. Be aware of the factors that can make 
    estimates difficult such as: lack of domain knowledge, lack of technical knowledge (ie. a new api we haven't worked with) or the 
    story is just too big.
 4. Stories should identify each user's reason for interacting with the system. There needs to be some sort of justification as to why 

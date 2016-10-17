@@ -6,7 +6,7 @@ comments: true
 thumbnail: /assets/images/blog/thumbnails/tree-branch.jpg
 ---
 In this post I'm going to explain the current development model for my team. We use [Git][1] very heavily. I will go over our bra<!--more-->nching 
-workflow with some explanation of the basics, but if you need to learn some more about Git try the book [Git Pro][2]. It is avaiable as 
+workflow with some explanation of the basics, but if you need to learn some more about Git try the book [Git Pro][2]. It is available as 
 a free ebook and covers everything you'll need to know.
 
 ![][branching-strategy] 
@@ -19,12 +19,12 @@ There are three main branches that we use in our central repository. We'll call 
 development, staging and production.  
 
 **The development branch** is used as one point to continually share code across the team. As a general rule code pushed out development 
-branch should be code that will actually build and passes our unit tests. If we need to share more expermental code we will pull from 
-eachother. The development branch commits are then occasionally merged into the staging branch when we feel the code is a candidate for 
+branch should be code that will actually build and passes our unit tests. If we need to share more experimental code we will pull from 
+each other. The development branch commits are then occasionally merged into the staging branch when we feel the code is a candidate for 
 release.  
 
 **The staging branch** is monitored for changes by our build server. Our build server performs multiple functions including running 
-our test suite and deploying to the staging environment. Once our tests are green and code has been deployed to the stanging 
+our test suite and deploying to the staging environment. Once our tests are green and code has been deployed to the staging 
 environment we are able to perform our user acceptance testing. In addition to commits from the development development branch, 
 bugfixes can also be merged directly to the staging branch. When a staging release is ready changes on the staging branch are then 
 merged into production.  

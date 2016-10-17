@@ -9,7 +9,7 @@ Recursion can sometimes hurt the brain. Here is a clear and concise way to do re
 Let's sta<!--more-->rt with a common scenario, recursing through a tree. Imagine that we've got a tree of "Nodes". For 
 our purposes a Node is just a simple class that has an Id and a way to identify its parent Node (via ParentId in this case).
 
-    // psuedo code for an example tree node
+    // pseudo code for an example tree node
     class Node 
     {
       int Id;
@@ -25,7 +25,7 @@ clipboard to paste in some more of that garbage code.
 
 No, no, no... We know better... recursion is the correct way to go. For whatever reason recursion hurts the brain and 
 you can never quite seem to remember how to do it correctly. The reason for that? Recursion just doesn't seem to ever 
-lend itself to readability. If we can read something clearly we can understand it more easily. Using lamba expressions 
+lend itself to readability. If we can read something clearly we can understand it more easily. Using lambda expressions 
 and linq help us get that clarity. Take the example below...
 
 <script src="https://gist.github.com/stesta/c512058a138b8d9ac1d6.js"></script>

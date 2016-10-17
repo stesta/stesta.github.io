@@ -7,7 +7,7 @@ thumbnail: /assets/images/blog/thumbnails/code2.jpg
 ---
 I frequently come to the conclusion that I'm working too hard. This is usually because I try to reinvent the wheel when some<!--more-->one 
 out there has already done the job better than I could have. Recently, I had a need to create some strongly typed C# models to help with 
-deserializing some XML. For simple XML it's easy enough to create these models/classes by hand. For more complex XML it's often easier to 
+de-serializing some XML. For simple XML it's easy enough to create these models/classes by hand. For more complex XML it's often easier to 
 use the XML Schema Definition tool.
 
 The XML Schema Definition tool is packaged into the Windows SDK. This means I've had this tool on my machine for practically forever and 
@@ -22,7 +22,7 @@ C# classes from that XSD...
 
 ### XML to XSD
 
-The follwing will output &lt;filename&gt;.xsd
+The following will output &lt;filename&gt;.xsd
 
     xsd.exe &lt;filename&gt;.xml
 

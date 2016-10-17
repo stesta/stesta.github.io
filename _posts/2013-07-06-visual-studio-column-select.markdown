@@ -5,7 +5,7 @@ date: 2013-07-06
 comments: true
 thumbnail: /assets/images/blog/thumbnails/columns.jpg
 ---
-If you're not familiar with column select you're missing out on a ton of multiline editing goodness. Just hold down the alt <!--more-->key while you're selecting items with your mouse and you'll see what I mean.
+If you're not familiar with column select you're missing out on a ton of multi-line editing goodness. Just hold down the alt <!--more-->key while you're selecting items with your mouse and you'll see what I mean.
 
     alt+left mouse
 

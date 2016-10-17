@@ -32,11 +32,9 @@ title: Steve Testa's Blog
                     <p><a class="btn-u btn-u-sm" href="{{ post.url }}">Read More <i class="fa fa-angle-double-right margin-left-5"></i></a></p>
                 </div>    
             </div>
-
-            <hr class="margin-bottom-40">
+            <hr class="margin-bottom-40" />
 			{% endfor %}
 		</div>
-		
 		<div class="col-md-3">
             <div class="magazine-sb-social margin-bottom-30">
                 <div class="headline headline-md"><h2>Social</h2></div>
@@ -44,16 +42,15 @@ title: Steve Testa's Blog
                     <li><a class="social_rss" data-original-title="Feed" href="/steve/blog/feed.xml"></a></li>
                     <li><a class="social_twitter" data-original-title="Twitter" href="https://twitter.com/steven_testa" rel="me"></a></li>
                     <li><a class="social_facebook" data-original-title="Facebook" href="https://www.facebook.com/steven.testa" rel="me"></a></li>
-                    <li><a class="social_googleplus" data-original-title="Goole Plus" href="https://plus.google.com/114388532024454912535/about" rel="me"></a></li>
-                    <li><a class="social_linkedin" data-original-title="Linkedin" href="http://www.linkedin.com/in/stevendtesta"></a></li>
+                    <li><a class="social_googleplus" data-original-title="Google Plus" href="https://plus.google.com/114388532024454912535/about" rel="me"></a></li>
+                    <li><a class="social_linkedin" data-original-title="LinkedIn" href="http://www.linkedin.com/in/stevendtesta"></a></li>
                     <li><a class="social_github" data-original-title="Github" href="{{ site.github_repo_url }}"></a></li>
                 </ul>
                 <div class="clearfix"></div>                
             </div>
-			
 			<div class="posts margin-bottom-40">
             <div class="headline headline-md"><h2>Author</h2></div>
-                <p>Steve Testa <br />I am a developer, consultant, entrepreneur and self described foosball champion. I like to blog occassionally about technology, code, trends and the community.</p>
+                <p>Steve Testa <br />I am a developer, consultant, entrepreneur and self described foosball champion. I like to blog occasionally about technology, code, trends and the community.</p>
 	        </div>
 		</div>      
 	</div>
