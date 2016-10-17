@@ -17,9 +17,9 @@ title: Services
 	<div class="row">
 		<div class="col-md-6">
 			<h2 class="title-v2">OUR SERVICES</h2>
-			<p>I am also available for contract in regards to a consulting engagement and product development. Testa Software can provide brand new solutions or consult on an existing systems. What follows is a summary of some of the services offered.</p>
+			<p>I am also available for contract in regards to consulting engagements and product development. Testa Software can provide brand new solutions or consult on existing systems. What follows is a summary of some of the services offered.</p>
 			<p>Call us at 440.305.0073 or email <a href="mailto:steve@testasoftware.com">steve@testasoftware.com</a>. We provide free estimates and flexible pricing options!</p><br />
-			<a href="mailto:steve@testasoftware.com" class="btn-u">Contact Testa Software</a>
+			<a href="mailto:steve@testasoftware.com" class="btn-u">Contact Testa Software</a><br />
 		</div>
 		<div class="col-md-6">
 			<img class="img-responsive" src="/assets/images/monitor_bw_800x450.jpg" alt="" />
@@ -37,7 +37,7 @@ title: Services
 			<i class="pull-left icon-directions"></i>
 			<div class="content-boxes-in-v4">
 				<h2>Web Development</h2>
-				<p>We build everything from static websites up to enterprise grade custom web applications. Using the latest web development techniques and technologies helps to provide beautiful, functional and easily maintained websites and web applications. Looking for help with an existing site? Our service offerings include updating an existing sites and helping with SEO (Search Engine Optimization).</p>
+				<p>We build everything from static websites up to enterprise grade custom web applications. Using the latest web development techniques and technologies helps to provide beautiful, functional and easily maintained websites and web applications. Looking for help with an existing site? Our service offerings include updating existing sites and helping with SEO (Search Engine Optimization).</p>
 				<!--<a href="#">Learn More</a>-->
 			</div>
 		</div>
@@ -53,7 +53,7 @@ title: Services
 			<i class="pull-left icon-social-youtube margin-right-10"></i>
 			<div class="content-boxes-in-v4">
 				<h2>Consulting</h2>
-				<p>We offer variety of software development related consulting services. We're happy to work with individuals and teams to work through things like complex development issues and application architectures. Or maybe you're struggling with problem more closely related to DevOps? We also provide educational services like agile coaching, source control management, cloud deployments, etc.</p>
+				<p>We offer variety of software development related consulting services. We're happy to work with individuals and teams to work through things like complex development issues and application architectures. Or maybe you're struggling with problem more closely related to DevOps? We also provide educational/training services for topics like agile coaching, source control management, cloud deployments, etc.</p>
 				<!--<a href="#">Learn More</a>-->
 			</div>
 		</div>
@@ -91,7 +91,7 @@ title: Services
 			<i class="pull-left icon-layers"></i>
 			<div class="content-boxes-in-v4">
 				<h2>Conversions</h2>
-				<p>Do you have some legacy code still sitting out there? Are enhancements and maintenance a headache due to an outdated or poorly architected code base? It happens a lot more than you'd think. Testa Software is happy to help port old code into the modern age of software development. Porting code to a modern language/architecture helps provide more reliable software, better maintainability and a lot fewer headaches for future enhacements.</p>
+				<p>Do you have some legacy code still sitting out there? Are enhancements and maintenance a headache due to an outdated or a poorly architected code base? It happens a lot more than you'd think. Testa Software is happy to help port old code into the modern age of software development. Porting code to a modern language/architecture helps provide more reliable software, better maintainability and a lot fewer headaches for future enhacements.</p>
 				<!--<a href="#">Learn More</a>-->
 			</div>
 		</div>
@@ -99,7 +99,7 @@ title: Services
 			<i class="pull-left icon-rocket"></i>
 			<div class="content-boxes-in-v4">
 				<h2>Administration</h2>
-				<p> Do you just need a little help setting up your website or do you want to completely offload all of technical administration? Are you confused about your cloud services like Windows Azure or Amazon's EC2? Maybe DNS is causing problems? Perhaps you need some education on how to configure your own on-premise server? We have the deep technical to help solve these problems and take away the pain of the technical challenges associated with your web properties.</p>
+				<p> Do you just need a little help setting up your website or do you want to completely offload all of the technical administration? Are you confused about your cloud services like Windows Azure or Amazon's EC2? Maybe DNS is causing problems? Perhaps you need some guidance on how to configure your own on-premise server? We have the deep knowledge to help solve these problems and take away the pain of the technical challenges associated with your web properties.</p>
 				<!--<a href="#">Learn More</a>-->
 			</div>
 		</div>
