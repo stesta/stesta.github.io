@@ -9,6 +9,7 @@ If you're not familiar with it, the [R programming language][r-home] is an aweso
 
 Least Squares
  - problem space
+ - overdetermined sets 
 
 
 
