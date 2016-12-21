@@ -5,7 +5,7 @@ date: 2016-11-11
 comments: true
 ---
 
-There are two types of developers: those who are supposed to be developers and those who are not. The key distiction is passion. Passion means peeling back the layers and taking a peek under the hood. It's about really knowing how software works and loving every bit (pun intended) from the elegant to the mudane. 
+There are two types of developers: those who are supposed to be developers and those who are not. The key distiction is passion.<!--more--> Passion means peeling back the layers and taking a peek under the hood. It's about really knowing how software works and loving every bit (pun intended) from the elegant to the mudane. 
 
 One layer I highly recommend every .Net developer take a peek as is IL. IL (Intermediate Language) is the language inbetween. Understand IL provides a number of benefits that all stem from a deeper understanding of how the .Net Framework actually works. 
 
