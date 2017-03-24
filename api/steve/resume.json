@@ -10,20 +10,21 @@
     "skillsets": {
         "programmingLanguages": [
             "C#",
-            "JavaScript",
-            "Haskell",
-            "R",
             "Python",
+            "Haskell",
+            "F#",
+            "R",
+            "JavaScript",
             "HTML/CSS3",
             "Java",
-            "C++",
+            "c++",
             "Perl"
         ],
         "frameworks": [
             ".NET (Web Forms & MVC)",
             ".NET Core",
-            "",
-            "Telligent"
+            "Telligent Evolution",
+            "Django"
         ],
         "software": [
             "Visual Studio",
@@ -57,6 +58,10 @@
                 "Android": [
                     "Marshmellow",
                     "Nugat"
+                ],
+
+                "iOS": [
+                    "10.2.x"
                 ]
             }
         ],
@@ -71,8 +76,17 @@
     "experience": [
         {
             "company": "Hyland Software Inc.",
+            "jobTitle": "Senior Applications Developer - IS Applications Development",
+            "datesEmployed": "January 2017 - Present",
+            "remarks": [
+                "Created a new company intranet and extranet, leveraging the Telligent Evolution platform. Delivered a new social enterprise platform to connect employees, resellers and customers in an unprecedented way.",
+                "Build end-to-end custom solutions on top of our platform to facilitate "
+            ]
+        },
+        {
+            "company": "Hyland Software Inc.",
             "jobTitle": "Senior Applications Developer - Web Experience Team",
-            "datesEmployed": "November 2010 - Present",
+            "datesEmployed": "November 2010 - December 2016",
             "remarks": [
                 "Created a new company intranet and extranet, leveraging the Telligent Evolution platform. Delivered a new social enterprise platform to connect employees, resellers and customers in an unprecedented way.",
                 "Build end-to-end custom solutions on top of our platform to facilitate "
