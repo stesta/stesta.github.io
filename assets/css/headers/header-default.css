@@ -135,6 +135,14 @@
 .header .navbar-brand {
 	font-family: monospace;
 	font-size: 24px;
+	background-image: -webkit-linear-gradient(0deg,purple, blue);
+	background-image:    -moz-linear-gradient(0deg,purple, blue); 
+	background-image:     -ms-linear-gradient(0deg,purple, blue);
+	background-image:      -o-linear-gradient(0deg,purple, blue);
+	background-image:         linear-gradient(0deg,purple, blue); 
+	color:transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
 }
 
 /*Header Container*/
