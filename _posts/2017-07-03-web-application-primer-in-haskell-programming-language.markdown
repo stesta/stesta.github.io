@@ -6,7 +6,7 @@ comments: true
 thumbnail: /assets/images/blog/thumbnails/haskell.png
 ---
 
-In this series, we're going to work our way through the development stack bottom-up. So to kick off our Haskell web application primer we're going to start with Haskell and core Game of Life code. 
+In this series, we're going to work our way through the development stack bottom-up. So to kick off our Haskell web application primer we're going to start with Haskell and core Game of Life code.<!--more--> 
 
 - Heroku  
   - Docker  
