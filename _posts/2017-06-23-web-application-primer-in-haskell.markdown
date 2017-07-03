@@ -21,7 +21,7 @@ Here's the hierarchy of how this application was built:
   - Docker  
     - React + ES6  
     - Snap Framework + Heist + Websockets  
-    - Haskell  
+    - [Haskell][goh-haskell]  
 
 ### **Source code** hosted on [Github][sourceCode]  
 
@@ -32,9 +32,10 @@ docker pull stesta/gameoflife
 
 ### **Live demo** deployed to [Heroku][liveDemo]  
 
-stay tuned...
+Next up: [Haskell and our Core Code][goh-haskell]
 
  [gameOfLife]: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life 
  [liveDemo]: http://game-of-haskell.herokuapp.com
  [sourceCode]: https://github.com/stesta/GameOfLife 
  [dockerImage]: https://hub.docker.com/r/stesta/gameoflife/
+ [goh-haskell]: /steve/blog/web-application-primer-in-haskell-programming-language  
