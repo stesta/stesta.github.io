@@ -43,7 +43,7 @@ This file defines a data structure we can use to hold the state for our applicat
 
 <script src="https://gist.github.com/stesta/d6b663f1250ed43d83ff5586147029df.js"></script>  
 
-The Application.hs is also where we've instanced out Heist and added a convenience data structure callled `AppHandler`.
+The Application.hs is also where we've instanced out Heist and added a convenience type synonym called `AppHandler`.
 
 **Site.hs**
 

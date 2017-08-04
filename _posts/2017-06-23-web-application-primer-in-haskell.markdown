@@ -19,8 +19,8 @@ Here's the hierarchy of how this application was built:
 
 - Heroku  
   - Docker  
-    - React + ES6  
-    - Snap Framework + Heist + Websockets  
+    - [React + ES6][]  
+    - [Snap Framework + Heist + Websockets][]  
     - [Haskell][goh-haskell]  
 
 ### **Source code** hosted on [Github][sourceCode]  
