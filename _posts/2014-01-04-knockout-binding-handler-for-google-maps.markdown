@@ -1,9 +1,14 @@
 ---
 layout: post
+current: post
+cover: assets/images/blog/thumbnails/boxing.jpg
+navigation: True
 title: "Knockout Binding Handler for Google Maps"
 date: 2014-01-04
-comments: true
-thumbnail: /assets/images/blog/thumbnails/boxing.jpg
+tags: 
+class: post-template
+subclass: 'post'
+author: steve
 ---
 Knockout Binding Handlers, FTW!
 

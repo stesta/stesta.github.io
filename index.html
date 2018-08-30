@@ -1,48 +1,40 @@
 ---
 layout: default
+current: home
+class: 'home-template'
+navigation: True
 ---
-<div class="slider-inner">
-    <div id="da-slider" class="da-slider">
-        <div class="da-slide">
-            <h2><i>Welcome to</i> <br /> <i>Testa Software</i></h2>
-            <p>
-                <i>You have arrived at the personal </i> <br />
-                <i>and professional home of the software, </i> <br />
-                <i>designs and ideas created by Steve Testa</i>
-            </p>
+
+<!-- < default -->
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<!-- The big featured header, it uses blog cover image as a BG if available -->
+<header class="site-header outer {% if page.cover or site.cover %}" style="background-image:  url(/{% if page.cover %}{{ page.cover }}{% elsif site.cover %}{{ site.cover }}{% endif %}) {% else %}no-cover{% endif %}">
+    <div class="inner">
+        <div class="site-header-content">
+            <h1 class="site-title">
+                {% if site.logo %}
+                    <!-- <img class="site-logo" src="/{{ site.logo }}" alt="{{ site.title }}"/> -->
+                    <span class="site-logo">λ Testa -&gt; Software</span>
+                {% else %}
+                    {{ site.title }}
+                {% endif %}
+            </h1>
+            <h2 class="site-description">{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}</h2>
         </div>
+        {% include site-nav.html %}
     </div>
-</div>
+</header>
 
-<div class="container content-sm">
-	<div class="row margin-bottom-30">
-    	<div class="col-md-4">
-    		<div class="service">
-                <i class="fa fa-compress service-icon"></i>
-    			<div class="desc">
-    				<h4><a href="/steve/blog/">Blog</a></h4>
-                    <p>This is my personal blog. This blog is in large part technically oriented. It contains my musings on a variety of development and other geeky types of topics. Obligatory: all opinions are my own.</p>
-    			</div>
-    		</div>	
-    	</div>
-    	<div class="col-md-4">
-    		<div class="service">
-                <i class="fa fa-cogs service-icon"></i>
-    			<div class="desc">
-    				<h4><a href="/steve/">About Me</a></h4>
-                    <p>I am a developer, consultant, entrepreneur and self described foosball champion. I like to blog occassionally about technology, code, trends and the community. Find out more here!</p>
-    			</div>
-    		</div>	
-    	</div>
-    	<div class="col-md-4">
-    		<div class="service">
-                <i class="fa fa-rocket service-icon"></i>
-    			<div class="desc">
-    				<h4><a href="{{ site.github_repo_url }}" target="__blank__">Open Source</a></h4>
-                    <p>Feel free to head on over to my GitHub account to checkout some of my code. I have a few open source projects available. Get a feel for my coding style and send me a pull request... or two!</p>
-    			</div>
-    		</div>	
-    	</div>			    
-	</div>
-</div>
+<!-- The main content area -->
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
 
+        <div class="post-feed">
+            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+            {%  include post-card.html %}
+        </div>
+
+    </div>
+</main>

@@ -1,9 +1,14 @@
 ---
 layout: post
+current: post
+cover: assets/images/blog/thumbnails/data-sorting-lego.jpg
+navigation: True
 title: "Natural String Sorting"
 date: 2012-08-08
-comments: true
-thumbnail: /assets/images/blog/thumbnails/data-sorting-lego.jpg
+tags: 
+class: post-template
+subclass: 'post'
+author: steve
 ---
 Here's the quick run down of the problem. Let's suppose you have a list of string that contain numeric values. When you sort<!--more--> 
 that list in .Net they probably don't get returned in the manner you'd expect. They get returned based upon their ASCII string values 

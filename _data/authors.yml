@@ -1,0 +1,11 @@
+steve:
+  username: steve
+  name: Steve Testa
+  url_full: http://testasoftware.com/steve/
+  url: /steve/
+  bio: developer, consultant, entrepreneur
+  picture: /assets/images/aboutme/steve-med.jpg
+  github: stesta
+  facebook: steven.testa
+  twitter: steven_testa
+  location: Cleveland, Ohio

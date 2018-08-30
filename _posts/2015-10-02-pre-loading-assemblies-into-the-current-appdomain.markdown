@@ -1,9 +1,14 @@
 ---
 layout: post
+current: post
+cover: assets/images/blog/thumbnails/one-way.jpg
+navigation: True
 title: "Pre-Loading Assemblies Into the Current AppDomain"
 date: 2015-10-02
-comments: true
-thumbnail: /assets/images/blog/thumbnails/one-way.jpg
+tags: 
+class: post-template
+subclass: 'post'
+author: steve
 ---
 
 I'm a big proponent of Inversion of Control and Dependency Injection. One of niceties that most DI containers provide is the<!--more--> ability to register bindings for multiple implementations for a single interface. In order to accomplish this the basic idea is that the container/framework will scan the currently loaded assemblies. If that's not the case the other option is usually to provide an enumerable of the types we want to register. In which case, it's our job to scan the assemblies for the types we care about. 

@@ -1,9 +1,14 @@
 ---
 layout: post
+current: post
+cover: assets/images/blog/thumbnails/fractal.jpg
+navigation: True
 title: "Recursion Using C# Lambda Expressions"
 date: 2013-09-10
-comments: true
-thumbnail: /assets/images/blog/thumbnails/fractal.jpg
+tags: 
+class: post-template
+subclass: 'post'
+author: steve
 ---
 Recursion can sometimes hurt the brain. Here is a clear and concise way to do recursion using C# lambdas and linq. 
 Let's sta<!--more-->rt with a common scenario, recursing through a tree. Imagine that we've got a tree of "Nodes". For 

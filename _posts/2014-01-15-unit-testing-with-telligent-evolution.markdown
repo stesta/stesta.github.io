@@ -1,9 +1,14 @@
 ---
 layout: post
+current: post
+cover: assets/images/blog/thumbnails/keys.jpg
+navigation: True
 title: "Unit Testing with Telligent Evolution"
 date: 2014-01-15
-comments: true
-thumbnail: /assets/images/blog/thumbnails/keys.jpg
+tags: 
+class: post-template
+subclass: 'post'
+author: steve
 ---
 Kaboom! *The service locator has not been initialized*  <!--more--> 
 

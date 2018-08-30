@@ -1,29 +1,50 @@
-# Site settings
-author: Steven Testa
-title: Testa Software
-email: steve@testasoftware.com
-description: ""
-url: "http://testasoftware.com"
-baseurl: ""
-gravatar_url: "http://www.gravatar.com/avatar/fa0158d5d8c2025ccd4d55cefa30d387.png"
-#subscribe_rss: 
-
-# GitHub settings
-github_user: stesta
-github_repo_url: https://github.com/stesta
-
-# Disqus Comments
-disqus_short_name: testasoftware-steve
-disqus_show_comment_count: true
-
-# Google Analytics
-google_analytics_tracking_id: UA-31584220-1
-
-# Build settings
+# Jekyll configuration
 markdown: kramdown
-kramdown: 
-  input: GFM
-excerpt_separator: <!--more-->  
-permalink: /steve/blog/:title
-gems:
-- jekyll-sitemap
+highlighter: rouge
+paginate: 10
+language: 'en-us'
+baseurl: /
+
+# Website info
+title: Testa Software
+description: The personal and professional home of Steve Testa
+cover: assets/images/blog-cover.jpg
+logo: assets/images/blog-icon.png
+logo_dark: 
+favicon: /assets/images/favicon/favicon.png
+production_url: http://testasoftware.com/
+
+# Social info
+navigation: True
+subscribers: False 
+twitter: steven_testa 
+facebook: steven.testa 
+github: stesta
+disqus: True
+disqus_shortname: testasoftware-steve
+google_analytics: UA-31584220-1
+
+permalink: /:title
+
+plugins: [jekyll-paginate, jekyll-feed]
+
+feed:
+  path: feed.xml
+
+exclude:
+  - assets/css
+  - node_modules
+  - vendor
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - GHOST.txt
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - Rakefile
+  - README.md
+  - script.py
+  - changelog.md
+  - "*.Rmd"
+  - .git*

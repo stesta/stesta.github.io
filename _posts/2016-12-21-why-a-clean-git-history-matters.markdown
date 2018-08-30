@@ -1,9 +1,14 @@
 ---
 layout: post
+current: post
+cover: assets/images/blog/thumbnails/git.jpg
+navigation: True
 title: "Why a Clean Git History Matters"
 date: 2016-12-21
-comments: true
-thumbnail: /assets/images/blog/thumbnails/git.jpg
+tags: 
+class: post-template
+subclass: 'post'
+author: steve
 ---
 
 Ugly git histories annoy the hell out of me!!!<br />  
