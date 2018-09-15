@@ -1,7 +1,7 @@
 steve:
   username: steve
   name: Steve Testa
-  url_full: http://testasoftware.com/steve/
+  url_full: https://testasoftware.com/steve/
   url: /steve/
   bio: developer, consultant, entrepreneur
   picture: /assets/images/aboutme/steve-med.jpg

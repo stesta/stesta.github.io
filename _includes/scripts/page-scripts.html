@@ -1,0 +1,16 @@
+{% include scripts/jQuery.html %}
+
+{% include scripts/highlight-js.html %}
+
+{% include scripts/jekyll-search.html %}
+
+{% include scripts/pagination.html %}
+
+{% include scripts/analytics.html %}
+
+<script>
+$(function() {
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+});
+</script>

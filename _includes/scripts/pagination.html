@@ -1,0 +1,6 @@
+{% if paginator.total_pages > site.paginate %}
+    <script>
+        var maxPages = parseInt('{{ paginator.total_pages }}');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script>
+{% endif %}

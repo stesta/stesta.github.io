@@ -52,15 +52,6 @@ into the {body} of the default.hbs template -->
                 </div>
             </section>
 
-            <!-- Email subscribe form at the bottom of the page -->
-            {% if site.subscribers %}
-                <section class="subscribe-form">
-                    <h3 class="subscribe-form-title">Subscribe to {{ site.title }}</h3>
-                    <p>Get the latest posts delivered right to your inbox</p>
-                    {% include subscribe-form.html placeholder="youremail@example.com" %}
-                </section>
-            {% endif %}
-
             <footer class="post-full-footer">
                 <!-- Everything inside the #author tags pulls data from the author -->
                 <!-- #author-->
@@ -175,12 +166,12 @@ into the {body} of the default.hbs template -->
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
             {% if page.next %}
-                {% include post-card-next.html %}
+                {% include post/post-card-next.html %}
             {% endif %}
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
             {% if page.previous %}
-                {% include post-card-previous.html %}
+                {% include post/post-card-previous.html %}
             {% endif %}
 
         </div>

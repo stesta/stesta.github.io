@@ -1,6 +1,5 @@
-@import "global.css";
-.highlight pre { background: color(var(--darkgrey) l(-3%)); }
-.highlight .hll { background: color(var(--darkgrey) l(-3%)); }
+.highlight pre { background: color(var($darkgrey) l(-3%)); }
+.highlight .hll { background: color(var($darkgrey) l(-3%)); }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
 .highlight .k { color: #66d9ef } /* Keyword */
@@ -60,7 +59,7 @@
 .highlight .vi { color: #f8f8f2 } /* Name.Variable.Instance */
 .highlight .il { color: #ae81ff } /* Literal.Number.Integer.Long */
 
-.highlight .gh { } /* Generic Heading & Diff Header */
+//.highlight .gh { } /* Generic Heading & Diff Header */
 .highlight .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
 .highlight .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
 .highlight .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */

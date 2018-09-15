@@ -12,7 +12,7 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: 
 favicon: /assets/images/favicon/favicon.png
-production_url: http://testasoftware.com/
+production_url: https://testasoftware.com/
 
 # Social info
 navigation: True
