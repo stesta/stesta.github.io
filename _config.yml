@@ -1,50 +1,99 @@
-# Jekyll configuration
-markdown: kramdown
-highlighter: rouge
-paginate: 10
-language: 'en-us'
-baseurl: /
-
-# Website info
-title: Testa Software
-description: The personal and professional home of Steve Testa
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: 
-favicon: /assets/images/favicon/favicon.png
-production_url: https://testasoftware.com/
-
-# Social info
-navigation: True
-subscribers: False 
-twitter: steven_testa 
-facebook: steven.testa 
-github: stesta
-disqus: True
-disqus_shortname: testasoftware-steve
+title: λ Testa -> Software
+email: steve@testasoftware.com
+description: >- # this means to ignore newlines until "baseurl:"
+  The personal and professional home of Steve Testa
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://testasoftware.com" # the base hostname & protocol for your site, e.g. http://example.com
+logo: /assets/images/aboutme/steve-med.jpg
+disqus: testasoftware-steve
 google_analytics: UA-31584220-1
+keywords: [machine learning, ai, software development, programming]
+permalink: /:categories/:year-:month-:day-:title/
+copyright: >
+  © Testa Software 2018. All rights reserved.
 
-permalink: /:title
+# Theme Settings
+accent_image: /assets/images/computer-history-dim.jpg
+accent_color: rgb(95,75,139)
 
-plugins: [jekyll-paginate, jekyll-feed]
+paginate:      5
+paginate_path: '/blog/:num/'
 
-feed:
-  path: feed.xml
+author:
+  name:  Steve
+  email: steve@testasoftware.com
+  picture: /assets/images/aboutme/steve-med.jpg
+  about: |
+    I am a developer, consultant, entrepreneur and self described foosball champion. I like to blog occasionally about technology, code, trends and the community (obligatory: **all opinions are my own**).  
+  social:
+    github: stesta
+    twitter: steven_testa
+    facebook: steven.testa
+    email: steve@testasoftware.com
 
-exclude:
-  - assets/css
-  - node_modules
-  - vendor
-  - .travis.yml
-  - Gemfile
-  - Gemfile.lock
-  - GHOST.txt
-  - gulpfile.js
-  - LICENSE
-  - package.json
-  - Rakefile
-  - README.md
-  - script.py
-  - changelog.md
-  - "*.Rmd"
-  - .git*
+defaults: 
+  - scope: 
+      type: posts
+    values: 
+      comments: true
+
+hydejack:
+  post_addons: [about]
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+optional_front_matter:
+  remove_originals:    true
+
+readme_index:
+  remove_originals:    true
+  with_frontmatter:    true
+
+relative_links:
+  collections:         true
+
+titles_from_headings:
+  strip_title:         true
+  collections:         true
+
+kramdown:
+  footnote_backlink:   '&#x21a9;&#xfe0e;'
+  math_engine:         mathjax
+  math_engine_opts:
+    preview:           true
+    preview_as_code:   true
+
+compress_html:
+  comments:            ["<!-- ", " -->"]
+  clippings:           all
+  endings:             all
+  ignore:
+    envs:              [development]
+
+sass:
+  style:               compressed
