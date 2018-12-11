@@ -1,66 +1,50 @@
-title: λ Testa -> Software
-email: steve@testasoftware.com
-description: >- # this means to ignore newlines until "baseurl:"
-  The personal and professional home of Steve Testa
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://testasoftware.com" # the base hostname & protocol for your site, e.g. http://example.com
-logo: /assets/images/aboutme/steve-med.jpg
-disqus: testasoftware-steve
-google_analytics: UA-31584220-1
-keywords: [machine learning, ai, software development, programming]
-permalink: /:categories/:year-:month-:day-:title/
-copyright: >
-  © Testa Software 2018. All rights reserved.
-
-# Theme Settings
-accent_image: /assets/images/computer-history-dim.jpg
-accent_color: rgb(95,75,139)
-
-paginate:      5
-paginate_path: '/blog/:num/'
-
-author:
-  name:  Steve
-  email: steve@testasoftware.com
-  picture: /assets/images/aboutme/steve-med.jpg
-  about: |
-    I am a developer, consultant, entrepreneur and self described foosball champion. I like to blog occasionally about technology, code, trends and the community (obligatory: **all opinions are my own**).  
-  social:
-    github: stesta
-    twitter: steven_testa
-    facebook: steven.testa
-    email: steve@testasoftware.com
-
-defaults: 
-  - scope: 
-      type: posts
-    values: 
-      comments: true
-
-hydejack:
-  post_addons: [about]
-
-# Build settings
+# Jekyll configuration
 markdown: kramdown
-kramdown:
-  math_engine: mathjax
-  math_engine_opts:
-    preview: true
-    preview_as_code: true
-theme: jekyll-theme-hydejack-pro
-plugins:
-  - jekyll-avatar
-  - jekyll-feed
-  - jekyll-paginate
+highlighter: rouge
+paginate: 10
+language: 'en-us'
+baseurl: /
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Website info
+title: Testa Software
+description: The personal and professional home of Steve Testa
+cover: assets/images/blog-cover.jpg
+logo: assets/images/blog-icon.png
+logo_dark: 
+favicon: /assets/images/favicon/favicon.png
+production_url: https://testasoftware.com/
+
+# Social info
+navigation: True
+subscribers: False 
+twitter: steven_testa 
+facebook: steven.testa 
+github: stesta
+disqus: True
+disqus_shortname: testasoftware-steve
+google_analytics: UA-31584220-1
+
+permalink: /:title
+
+plugins: [jekyll-paginate, jekyll-feed]
+
+feed:
+  path: feed.xml
+
+exclude:
+  - assets/css
+  - node_modules
+  - vendor
+  - .travis.yml
+  - Gemfile
+  - Gemfile.lock
+  - GHOST.txt
+  - gulpfile.js
+  - LICENSE
+  - package.json
+  - Rakefile
+  - README.md
+  - script.py
+  - changelog.md
+  - "*.Rmd"
+  - .git*
