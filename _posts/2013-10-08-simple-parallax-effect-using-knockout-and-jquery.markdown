@@ -1,14 +1,8 @@
 ---
 layout: post
-current: post
-cover: assets/images/blog/thumbnails/parallax.gif
-navigation: True
-title: "Simple Parallax Effect Using Knockout and jQuery"
+title: Simple Parallax Effect Using Knockout and jQuery
+image: /assets/images/blog/thumbnails/parallax.gif
 date: 2013-10-08
-tags: 
-class: post-template
-subclass: 'post'
-author: steve
 ---
 Using [parallax](http://en.wikipedia.org/wiki/Parallax) shift has become a popular effect lately. It's popularity has risen as a design choice across the web and has<!--more--> even 
 made its way into the new iOS7. The concept is relatively simple: elements on the screen move and scroll at different rates to give the illusion of depth.&nbsp;</p>

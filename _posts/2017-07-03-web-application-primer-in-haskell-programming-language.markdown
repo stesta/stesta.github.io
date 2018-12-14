@@ -1,14 +1,8 @@
 ---
 layout: post
-current: post
-cover: assets/images/blog/thumbnails/haskell.png
-navigation: True
-title: "Web Application Primer in Haskell - Haskell"
+title: Web Application Primer in Haskell - Haskell
+image: /assets/images/blog/thumbnails/haskell.png
 date: 2017-07-03
-tags: 
-class: post-template
-subclass: 'post'
-author: steve
 ---
 
 In this series, we're going to work our way through the development stack bottom-up. So to kick off our Haskell web application primer we're going to start with Haskell and core Game of Life code.<!--more--> 

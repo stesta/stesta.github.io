@@ -1,14 +1,8 @@
 ---
 layout: post
-current: post
-cover: assets/images/blog/thumbnails/flow-charting.jpg
-navigation: True
-title: "What is a User Story?"
+title: What is a User Story?
+image: /assets/images/blog/thumbnails/flow-charting.jpg
 date: 2013-09-27
-tags: 
-class: post-template
-subclass: 'post'
-author: steve
 ---
 User stories are becoming more prevalent these days. While a user story by itself can be use autonomously, they're also used<!--more--> 
 heavily in agile methodologies like scrum. The definition of a user story is simple:

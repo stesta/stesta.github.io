@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Natural String Sorting
+image: /assets/images/blog/thumbnails/data-sorting-lego.jpg
 date: 2012-08-08
 ---
 Here's the quick run down of the problem. Let's suppose you have a list of string that contain numeric values. When you sort<!--more--> 

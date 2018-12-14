@@ -1,9 +1,8 @@
 ---
 layout: post
-cover: assets/images/blog/thumbnails/haskell.png
-title: "Web Application Primer in Haskell - Web Framework"
+title: Web Application Primer in Haskell - Web Framework
+image: /assets/images/blog/thumbnails/haskell.png
 date: 2017-07-27
-author: Steve
 ---
 
 There are plenty of choices when it comes to Haskell web frameworks: yesod, spock, snap, happstack - just to name a few.<!--more--> The [Haskell Wiki][webFrameworks] provides a list of descriptions and differences between some of the web frameworks out there. 

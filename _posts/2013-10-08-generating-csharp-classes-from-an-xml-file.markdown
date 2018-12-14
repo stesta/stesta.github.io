@@ -1,14 +1,8 @@
 ---
 layout: post
-current: post
-cover: assets/images/blog/thumbnails/code2.jpg
-navigation: True
-title: "Generating C# Classes from an XML File"
+title: Generating C# Classes from an XML File
+image: /assets/images/blog/thumbnails/code2.jpg
 date: 2013-10-08
-tags: 
-class: post-template
-subclass: 'post'
-author: steve
 ---
 I frequently come to the conclusion that I'm working too hard. This is usually because I try to reinvent the wheel when some<!--more-->one 
 out there has already done the job better than I could have. Recently, I had a need to create some strongly typed C# models to help with 

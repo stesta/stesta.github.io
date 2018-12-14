@@ -1,14 +1,8 @@
 ---
 layout: post
-current: post
-cover: assets/images/blog/thumbnails/thinking.jpg
-navigation: True
-title: "Thinking Functionally with LINQ"
+title: Thinking Functionally with LINQ
+image: /assets/images/blog/thumbnails/thinking.jpg
 date: 2015-09-01
-tags: 
-class: post-template
-subclass: 'post'
-author: steve
 ---
 
 What would you do if I asked you to complete a task across a collection of objects without using a foreach loop? Or any loop<!--more-->ing construct at all for that matter? More importantly, why does it matter?  

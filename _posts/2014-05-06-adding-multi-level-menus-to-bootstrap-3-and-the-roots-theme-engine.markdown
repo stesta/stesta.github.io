@@ -1,14 +1,8 @@
 ---
 layout: post
-current: post
-cover: assets/images/blog/thumbnails/menu1.jpg
-navigation: True
-title: "Adding Multi-Level Menus to Bootstrap 3 and the Roots Theme Engine"
+title: Adding Multi-Level Menus to Bootstrap 3 and the Roots Theme Engine
+image: /assets/images/blog/thumbnails/menu1.jpg
 date: 2014-05-06
-tags: 
-class: post-template
-subclass: 'post'
-author: steve
 ---
 Very recently I had a request to do some work on a WordPress site. Granted, I'm not a fan of WordPress, but whatcha gonna do<!--more--> ? 
 (Note: that "not a fan" is an understatement... php?!... really?!?!) Because I'm not a fan, my experience with WordPress is incredibly limited. 

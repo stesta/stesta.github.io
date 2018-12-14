@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Git Branching Workflow - Part 1: Overview"
+image: /assets/images/blog/thumbnails/tree-branch.jpg
 date: 2013-01-25
 ---
 In this post I'm going to explain the current development model for my team. We use [Git][1] very heavily. I will go over our bra<!--more-->nching 

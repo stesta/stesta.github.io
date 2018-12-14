@@ -1,14 +1,8 @@
 ---
 layout: post
-current: post
-cover: assets/images/blog/thumbnails/blog2.jpg
-navigation: True
-title: "Linq Helpers for IEnumerable"
+title: Linq Helpers for IEnumerable
+image: /assets/images/blog/thumbnails/blog2.jpg
 date: 2015-08-24
-tags: 
-class: post-template
-subclass: 'post'
-author: steve
 ---
 
 Linq is awesome. Especially considering I tend to think functionally. Go out and experiment with something like Haskell if <!--more-->you're a procedural programmer. There are plenty of functional languages out there, but Haskell seems to try the hardest to be functionally pure. Any functional language, however, can really widen your perspective on programming.  

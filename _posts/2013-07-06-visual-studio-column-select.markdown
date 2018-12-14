@@ -1,14 +1,8 @@
 ---
 layout: post
-current: post
-cover: assets/images/blog/thumbnails/columns.jpg
-navigation: True
-title: "Visual Studio Column Select"
+title: Visual Studio Column Select
+image: /assets/images/blog/thumbnails/columns.jpg
 date: 2013-07-06
-tags: 
-class: post-template
-subclass: 'post'
-author: steve
 ---
 If you're not familiar with column select you're missing out on a ton of multi-line editing goodness. Just hold down the alt <!--more-->key while you're selecting items with your mouse and you'll see what I mean.
 
