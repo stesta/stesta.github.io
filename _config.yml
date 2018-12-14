@@ -13,7 +13,7 @@ copyright: >
   © Testa Software 2018. All rights reserved.
 
 # Theme Settings
-accent_image: /assets/images/computer-history-dim.jpg
+accent_image: /assets/images/nn.jpg
 accent_color: rgb(95,75,139)
 
 paginate:      5
