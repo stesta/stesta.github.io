@@ -1,9 +1,9 @@
 title: λ Testa -> Software
 email: steve@testasoftware.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- 
   The personal and professional home of Steve Testa
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://testasoftware.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" 
+url: "https://testasoftware.com"
 logo: /assets/images/aboutme/steve-med.jpg
 disqus: testasoftware-steve
 google_analytics: UA-31584220-1

@@ -1,11 +1,8 @@
-// Uncomment below to remove border radius on projects and pagination items (pre v6.5)
 /*
 .card, .pagination-item {
   border-radius: 0!important;
 }
 */
-
-// Uncomment below to restore the old (pre v6.5) sidebar
 /*
 @media screen {
   .sidebar-sticky {
@@ -14,7 +11,6 @@
   }
 }
 */
-
 /* The overlay effect with black background */
 .overlay {
   height: 100%;
@@ -24,8 +20,9 @@
   z-index: 1000;
   top: 0;
   left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9); /* Black with a little bit see-through */
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black with a little bit see-through */
 }
 
 /* The content */
