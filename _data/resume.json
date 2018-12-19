@@ -6,30 +6,79 @@
       "email": "steve@testasoftware.com",
       "phone": "(440) 305-0073",
       "website": "https://testasoftware.com",
-      "summary": "",
+      "summary": "Programmer, Entrepreneur, I teach machines.",
       "location": {
-        "address": "",
-        "postalCode": "",
         "city": "Cleveland",
         "countryCode": "US",
         "region": "Ohio"
       },
       "profiles": [
         {
+          "network": "LinkedIn",
+          "username": "stevendtesta",
+          "url": "https://www.linkedin.com/in/stevendtesta/"
+        },
+        {
           "network": "Twitter",
           "username": "steven_testa",
-          "url": ""
+          "url": "https://twitter.com/steven_testa"
+        },
+        {
+          "network": "GitHub",
+          "username": "stesta",
+          "url": "https://github.com/stesta"
+        },
+        {
+          "network": "Kaggle",
+          "username": "steventesta",
+          "url": "https://kaggle.com/steventesta"
         }
       ]
     },
     "work": [
       {
-        "company": "Pied Piper",
-        "position": "CEO/President",
-        "website": "https://piedpiper.com",
-        "startDate": "2013-12-01",
-        "endDate": "2014-12-01",
-        "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+        "company": "Hyland Software",
+        "position": "Applications Developer",
+        "website": "https://www.hyland.com",
+        "startDate": "2010-01-04",
+        "endDate": "",
+        "summary": "Hyland helps organizations across the globe manage information, simplify processes and connect systems.",
+        "highlights": [
+          "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+          "Successfully won Techcrunch Disrupt",
+          "Optimized an algorithm that holds the current world record for Weisman Scores"
+        ]
+      },
+      {
+        "company": "Testa Software",
+        "position": "Owner / Developer",
+        "website": "https://testasaoftware.com",
+        "startDate": "2009-06-01",
+        "endDate": "",
+        "summary": "My consulting company.",
+        "highlights": [ 
+        ]
+      },
+      {
+        "company": "Micro-Office Systems",
+        "position": "Programmer / Technical Support Specialist",
+        "website": "https://www.micro-officesystems.com",
+        "startDate": "2005-07-01",
+        "endDate": "2009-12-01",
+        "summary": "Medical IT solutions.",
+        "highlights": [
+          "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+          "Successfully won Techcrunch Disrupt",
+          "Optimized an algorithm that holds the current world record for Weisman Scores"
+        ]
+      },
+      {
+        "company": "Sky Internet Solutions",
+        "position": "Web Developer",
+        "website": "",
+        "startDate": "2005-01-01",
+        "endDate": "2005-06-01",
+        "summary": "A custom web development company.",
         "highlights": [
           "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
           "Successfully won Techcrunch Disrupt",
@@ -39,87 +88,107 @@
     ],
     "volunteer": [
       {
-        "organization": "CoderDojo",
-        "position": "Teacher",
-        "website": "https://coderdojo.com/",
-        "startDate": "2012-01-01",
-        "endDate": "2013-01-01",
-        "summary": "Global movement of free coding clubs for young people.",
+        "organization": "Cleveland Dev Craft",
+        "position": "Organizer",
+        "website": "https://meetup.com/ClevelandDevCraft",
+        "startDate": "2016-01-01",
+        "endDate": "2018-01-01",
+        "summary": "A local Cleveland .NET Enterprise User Group.",
         "highlights": [
-          "Awarded 'Teacher of the Month'"
+          "Ineta"
         ]
       }
     ],
-    "education": [
+    "certifications": [
       {
-        "institution": "University of Oklahoma",
-        "area": "Information Technology",
-        "studyType": "Bachelor",
-        "startDate": "2011-06-01",
-        "endDate": "2014-01-01",
-        "gpa": "4.0",
-        "courses": [
-          "DB1101 - Basic SQL",
-          "CS2011 - Java Introduction"
-        ]
-      }
-    ],
-    "awards": [
+        "name": "Structuring Machine Learning Projects",
+        "authority": "Coursera",
+        "license": "8FAZHACG8GAR",
+        "startDate": "2018-11-12",
+        "endDate": "",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/8FAZHACG8GAR"
+      },
       {
-        "title": "Digital Compression Pioneer Award",
-        "date": "2014-11-01",
-        "awarder": "Techcrunch",
-        "summary": "There is no spoon."
-      }
-    ],
-    "publications": [
+        "name": "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
+        "authority": "Coursera",
+        "license": "B8G4J3VY39E9",
+        "startDate": "2018-11-02",
+        "endDate": "",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/B8G4J3VY39E9"
+      },
       {
-        "name": "Video compression for 3d media",
-        "publisher": "Hooli",
-        "releaseDate": "2014-10-01",
-        "website": "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-        "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+        "name": "Neural Networks and Deep Learning",
+        "authority": "Coursera",
+        "license": "UX63PJFC7XPR",
+        "startDate": "2018-10-24",
+        "endDate": "",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/UX63PJFC7XPR"
+      },
+      {
+        "name": "Machine Learning",
+        "authority": "Coursera",
+        "license": "CN8FETZFERZL",
+        "startDate": "2018-10-16",
+        "endDate": "",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/CN8FETZFERZL"
+      },
+      {
+        "name": "Microsoft® Certified Professional",
+        "authority": "Microsoft",
+        "license": "9434842",
+        "startDate": "2012-10-01",
+        "endDate": "",
+        "url": ""
+      },
+      {
+        "name": "Microsoft® Certified Technology Specialist: .NET Framework 4, Web Applications",
+        "authority": "Microsoft",
+        "license": "9434842",
+        "startDate": "2012-10-01",
+        "endDate": "",
+        "url": ""
       }
     ],
     "skills": [
       {
-        "name": "Web Development",
-        "level": "Master",
+        "name": "Machine Learning",
+        "level": "",
         "keywords": [
-          "HTML",
-          "CSS",
-          "Javascript"
+          "PyTorch",
+          "fastai",
+          "Tensorflow"
         ]
       },
       {
-        "name": "Compression",
-        "level": "Master",
+        "name": "Programming Languages",
+        "level": "",
         "keywords": [
-          "Mpeg",
-          "MP4",
-          "GIF"
+          "C#",
+          "python",
+          "Haskell",
+          "Javascript",
+          "HTML5/CSS3",
+          "SQL",
+          "Java",
+          "C++"
         ]
-      }
-    ],
-    "languages": [
+      },
       {
-        "language": "English",
-        "fluency": "Native speaker"
+        "name": "Frameworks",
+        "level": "",
+        "keywords": [
+          ".NET",
+          ".NET Core",
+          "React",
+          "Angular"
+        ]
       }
     ],
     "interests": [
       {
-        "name": "Wildlife",
+        "name": "",
         "keywords": [
-          "Ferrets",
-          "Unicorns"
         ]
-      }
-    ],
-    "references": [
-      {
-        "name": "Erlich Bachman",
-        "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
       }
     ]
   } 
