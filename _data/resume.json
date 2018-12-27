@@ -94,11 +94,12 @@
         "organization": "Cleveland Dev Craft",
         "position": "Organizer",
         "website": "https://www.meetup.com/cledevcraft/",
-        "startDate": "2016-01-01",
-        "endDate": "2018-01-01",
+        "startDate": "2014-11-01",
+        "endDate": "",
         "summary": "A local Cleveland .NET Enterprise User Group.",
         "highlights": [
-          "Ineta"
+          ".NET Enterprise Development",
+          "Ineta Member"
         ]
       }
     ],
