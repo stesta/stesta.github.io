@@ -105,6 +105,14 @@
     ],
     "certifications": [
       {
+        "name": "Convolutional Neural Networks",
+        "authority": "Coursera",
+        "license": "VE6R3H5FKQJ2",
+        "startDate": "2019-01-21",
+        "endDate": "",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/VE6R3H5FKQJ2"
+      },
+      {
         "name": "Structuring Machine Learning Projects",
         "authority": "Coursera",
         "license": "8FAZHACG8GAR",
