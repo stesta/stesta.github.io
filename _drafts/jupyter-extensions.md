@@ -29,11 +29,15 @@ Extensions for Machine Learning
 
 ### Codefolding 
 
-As work progresses the tendency for code is to sprawl. 
+Readability is inversely proportional to the the length of code. Code folding allows the developer to collapse blocks of code to keep the important semantics in context while maintaining a readable code base.  
+
+![](/assets/images/blog/code-folding.gif)
 
 ### Collapsible Headings
 
-As complexity increases so will your notebook. Even if you're diligent about breaking up code into small digestable cells such that it diminishes the need for codefolding, it is often a good idea to organize. 
+As complexity increases so will your notebook. Even if you're diligent about breaking up code into small digestable cells such that it diminishes the need for codefolding, it is often a good idea to organize your code via headings. 
+
+![](/assets/images/blog/collapsible-headings.gif)
 
 ### Freeze
 
