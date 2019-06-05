@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /about/
 menu: true
+redirect_from: /steve
 ---
 
 <!--author-->
