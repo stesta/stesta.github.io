@@ -105,6 +105,22 @@
     ],
     "certifications": [
       {
+        "name": "Deep Learning Specialization",
+        "authority": "Coursera",
+        "license": "BTHYW42ACPN7",
+        "startDate": "2019-06-11",
+        "endDate": "",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/BTHYW42ACPN7"
+      },
+      {
+        "name": "Sequence Models",
+        "authority": "Coursera",
+        "license": "GLJ7JJVVULKY",
+        "startDate": "2019-06-11",
+        "endDate": "",
+        "url": "https://www.coursera.org/account/accomplishments/certificate/GLJ7JJVVULKY"
+      },
+      {
         "name": "Convolutional Neural Networks",
         "authority": "Coursera",
         "license": "VE6R3H5FKQJ2",
