@@ -4,7 +4,7 @@ description: >-
   The personal and professional home of Steve Testa
 baseurl: "" 
 url: "https://testasoftware.com"
-logo: /assets/images/aboutme/steve-med.jpg
+logo: /assets/images/aboutme/steve_headshot.jpg
 disqus: testasoftware-steve
 google_analytics: UA-31584220-1
 keywords: [machine learning, ai, software development, programming]
@@ -22,7 +22,7 @@ paginate_path: '/blog/:num/'
 author:
   name:  Steve
   email: steve@testasoftware.com
-  picture: /assets/images/aboutme/steve-med.jpg
+  picture: /assets/images/aboutme/steve_headshot.jpg
   about: |
     I am a developer, consultant, entrepreneur and self described foosball champion. I like to blog occasionally about technology, code, trends and the community (obligatory: **all opinions are my own**).  
   social:
