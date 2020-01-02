@@ -10,7 +10,7 @@ google_analytics: UA-31584220-1
 keywords: [machine learning, ai, software development, programming]
 permalink: /:categories/:year-:month-:day-:title/
 copyright: >
-  © Testa Software 2018. All rights reserved.
+  © Testa Software 2020. All rights reserved.
 
 # Theme Settings
 accent_image: /assets/images/nn.jpg
@@ -22,7 +22,7 @@ paginate_path: '/blog/:num/'
 author:
   name:  Steve
   email: steve@testasoftware.com
-  picture: https://secure.gravatar.com/avatar/fa0158d5d8c2025ccd4d55cefa30d387?s=250
+  picture: https://secure.gravatar.com/avatar/fa0158d5d8c2025ccd4d55cefa30d387?s=300
   about: |
     I am a developer, consultant, entrepreneur and self described foosball champion. I like to blog occasionally about technology, code, trends and the community (obligatory: **all opinions are my own**).  
   social:
