@@ -1,4 +1,8 @@
 {
     "easysass.compileAfterSave": true,
+<<<<<<< HEAD
     "python.pythonPath": "C:\\Users\\stesta\\AppData\\Local\\Continuum\\anaconda3\\envs\\tensorflow\\python.exe"
+=======
+    "python.pythonPath": "C:\\Users\\steve\\Anaconda3\\envs\\fastai\\python.exe"
+>>>>>>> draft cleanup mostly
 }
