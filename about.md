@@ -10,7 +10,7 @@ redirect_from: /steve
 
 **A little background...**  
 
-My career started at Sky Internet Solutions, a small consulting firm. Custom websites were the name of the game over there. After which, I worked for about 5 years at medical software company called Micro-Office Systems. While there I worked on everything from medical systems integrations to custom back office healthcare solutions. My current day job is as an Application Developer for Hyland Software here in Cleveland, Ohio. At Hyland, I work mainly in the social enterprise space with a heavy focus on web development using the Microsoft stack. I've been with Hyland for around 10 years now. On top of it all, I have maintained Testa Software, my own consulting firm, on the side.  
+My career started at Sky Internet Solutions, a small consulting firm. Custom websites were the name of the game over there. After which, I worked for about 5 years at medical software company called Micro-Office Systems. While there I worked on everything from medical systems integrations to custom back office healthcare solutions. My current day job is as an Application Developer for Hyland Software here in Cleveland, Ohio. At Hyland, I work mainly in the social enterprise space with a heavy focus on web development using the Microsoft stack. I've been with Hyland for around {{ site.time | date: '%Y' | to_integer | minus:2010 }} years now. On top of it all, I have maintained Testa Software, my own consulting firm, on the side.  
 
 **Connect with me...**  
 
