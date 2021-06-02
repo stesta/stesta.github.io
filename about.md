@@ -14,5 +14,5 @@ My career started at Sky Internet Solutions, a small consulting firm. Custom web
 
 **Connect with me...**  
 
-I am always excited about the latest technologies and am passionate about code. I am always happy to discuss both. On the social web I tend to hang out on [twitter](https://twitter.com/steven_testa), but you can also catch me on [facebook](https://www.facebook.com/steven.testa) and [google+](https://plus.google.com/114388532024454912535/about). If you are in the Cleveland area you can catch me in person. I am a regular at some of Cleveland's development related user groups: [C# Sig](http://www.meetup.com/Cleveland-C-VB-Net-User-Group/) or the group I started [Cleveland Dev Craft](http://www.meetup.com/cledevcraft).
+I am always excited about the latest technologies and am passionate about code. I am always happy to discuss both. On the social web I tend to hang out on [twitter](https://twitter.com/steven_testa). If you are in the Cleveland area you can catch me in person. I am a regular at some of Cleveland's development related user groups: [C# Sig](http://www.meetup.com/Cleveland-C-VB-Net-User-Group/) or the group I started [Cleveland Dev Craft](http://www.meetup.com/cledevcraft).
 
